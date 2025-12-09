@@ -1,6 +1,6 @@
 import { Product, ProductData, Category, APIResponse } from '@/types/product';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = 'https://prosmart-concepts.vercel.app/api';
 
 /**
  * Fetch all products from the API
