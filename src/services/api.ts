@@ -1,0 +1,143 @@
+import { Product, ProductData, Category, APIResponse } from '@/types/product';
+
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
+/**
+ * Fetch all products from the API
+ */
+export const fetchProducts = async (filters?: {
+  category_id?: string;
+  subcategory_id?: string;
+  main_category?: string;
+}): Promise<Product[]> => {
+  try {
+    const queryParams = new URLSearchParams();
+    if (filters) {
+      Object.entries(filters).forEach(([key, value]) => {
+        if (value) queryParams.append(key, value);
+      });
+    }
+
+    const url = `${API_BASE_URL}/products${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result: APIResponse<Product[]> = await response.json();
+
+    if (!result.success) {
+      throw new Error(result.message || 'Failed to fetch products');
+    }
+
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetch a single product by ID
+ */
+export const fetchProductById = async (id: string): Promise<Product> => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/products/${id}`);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result: APIResponse<Product> = await response.json();
+
+    if (!result.success) {
+      throw new Error(result.message || 'Failed to fetch product');
+    }
+
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching product:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetch all categories with their subcategories and products
+ * Returns data in the nested structure needed by the Products page
+ */
+export const fetchCategoriesWithProducts = async (opts?: { signal?: AbortSignal }): Promise<ProductData> => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/categories-with-products`, {
+      signal: opts?.signal,
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result: APIResponse<ProductData> = await response.json();
+
+    if (!result.success) {
+      throw new Error(result.message || 'Failed to fetch categories');
+    }
+
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching categories with products:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetch all categories
+ */
+export const fetchCategories = async (): Promise<Category[]> => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/categories`);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result: APIResponse<Category[]> = await response.json();
+
+    if (!result.success) {
+      throw new Error(result.message || 'Failed to fetch categories');
+    }
+
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching categories:', error);
+    throw error;
+  }
+};
+
+/**
+ * Fetch subcategories, optionally filtered by category_id
+ */
+export const fetchSubcategories = async (categoryId?: string) => {
+  try {
+    const url = categoryId
+      ? `${API_BASE_URL}/subcategories?category_id=${categoryId}`
+      : `${API_BASE_URL}/subcategories`;
+
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const result = await response.json();
+
+    if (!result.success) {
+      throw new Error(result.message || 'Failed to fetch subcategories');
+    }
+
+    return result.data;
+  } catch (error) {
+    console.error('Error fetching subcategories:', error);
+    throw error;
+  }
+};
+
