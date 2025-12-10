@@ -8,7 +8,6 @@ import ProductFilters from '@/components/products/ProductFilters';
 import ProductsLoading from '@/components/products/ProductsLoading';
 import { fetchCategoriesWithProducts } from '@/services/api';
 import { Product, ProductData } from '@/types/product';
-
 const Products = () => {
   const [searchParams] = useSearchParams();
   const categoryParam = searchParams.get('category');
@@ -349,7 +348,7 @@ const Products = () => {
             )}
 
             {/* Products Section - Independent Scroll */}
-            <div className="flex-1 h-full overflow-hidden flex flex-col">
+            <div className="flex-1 h-full overflow-hidden flex flex-col min-h-0 relative">
               {/* Toolbar */}
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
@@ -357,25 +356,93 @@ const Products = () => {
                 transition={{ delay: 0.2 }}
                 className="flex items-center gap-3 sm:gap-4 justify-between mb-6 flex-shrink-0 overflow-x-auto no-scrollbar -mx-2 px-2 sm:overflow-visible sm:mx-0 sm:px-0"
               >
-                <button
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="lg:hidden flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm shadow-sm flex-shrink-0"
-                >
-                  <SlidersHorizontal className="w-4 h-4" />
-                  Filters
-                </button>
+                {/* Mobile Filters Button - Only visible on mobile */}
+                <div className="relative md:hidden">
+                  <button
+                    onClick={() => setShowFilters(!showFilters)}
+                    className="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm shadow-sm flex-shrink-0 hover:bg-muted transition-colors"
+                  >
+                    <SlidersHorizontal className="w-4 h-4" />
+                    Filters
+                    {(selectedCategories.length > 0 || selectedSubcategories.length > 0) && (
+                      <span className="ml-1 px-1.5 py-0.5 bg-primary text-primary-foreground text-xs font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center">
+                        {selectedCategories.length + selectedSubcategories.length}
+                      </span>
+                    )}
+                  </button>
+
+                  {/* Mobile Filters Dropdown Card */}
+                  {showFilters && (
+                    <>
+                      {/* Backdrop */}
+                      <div
+                        className="fixed inset-0 bg-black/50 z-40 md:hidden"
+                        onClick={() => setShowFilters(false)}
+                      />
+                      {/* Filters Card */}
+                      <motion.div
+                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                        transition={{ duration: 0.2 }}
+                        className="fixed top-20 left-4 right-4 bg-card rounded-xl shadow-2xl border-2 border-border z-50 md:hidden max-h-[calc(100vh-6rem)] overflow-hidden flex flex-col"
+                      >
+                        {/* Card Header */}
+                        <div className="flex items-center justify-between p-4 border-b border-border bg-muted/50">
+                          <h3 className="font-bold text-base text-foreground">Filters</h3>
+                          <button
+                            onClick={() => setShowFilters(false)}
+                            className="p-1.5 rounded-lg hover:bg-muted transition-colors"
+                          >
+                            <X className="w-5 h-5 text-muted-foreground" />
+                          </button>
+                        </div>
+
+                        {/* Filters Content - Scrollable */}
+                        <div className="overflow-y-auto flex-1 p-4">
+                          <ProductFilters
+                            categories={filteredCategories}
+                            subcategories={filteredSubcategories}
+                            selectedCategories={selectedCategories}
+                            selectedSubcategories={selectedSubcategories}
+                            onCategoryChange={handleCategoryChange}
+                            onSubcategoryChange={handleSubcategoryChange}
+                            onResetFilters={handleResetFilters}
+                            priceRange={[priceRange?.min || 0, priceRange?.max || 500]}
+                            onPriceChange={(range) => setPriceRange({ min: range[0], max: range[1] })}
+                          />
+                        </div>
+
+                        {/* Card Footer - Apply Button */}
+                        <div className="p-4 border-t border-border bg-muted/50 flex gap-3">
+                          <button
+                            onClick={handleResetFilters}
+                            className="flex-1 px-4 py-2.5 border border-border rounded-lg text-muted-foreground font-medium hover:bg-muted transition-colors text-sm"
+                          >
+                            Reset
+                          </button>
+                          <button
+                            onClick={() => setShowFilters(false)}
+                            className="flex-1 px-4 py-2.5 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm"
+                          >
+                            Apply Filters
+                          </button>
+                        </div>
+                      </motion.div>
+                    </>
+                  )}
+                </div>
 
                 <div className="flex items-center gap-3 sm:gap-4 ml-auto flex-shrink-0">
-                  <span className="text-muted-foreground text-sm font-medium whitespace-nowrap">
+                  <span className="text-muted-foreground text-xs sm:text-sm font-medium whitespace-nowrap">
                     {filteredProducts.length} products
                   </span>
 
-                  <button className="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm hover:bg-muted transition-colors shadow-sm flex-shrink-0">
-                    <SlidersHorizontal className="w-4 h-4" />
+                  <button className="hidden sm:flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm hover:bg-muted transition-colors shadow-sm flex-shrink-0">
                     Sort by
                   </button>
 
-                  <div className="hidden sm:flex items-center gap-1 bg-card border border-border rounded-lg p-1 shadow-sm flex-shrink-0">
+                  <div className="hidden md:flex items-center gap-1 bg-card border border-border rounded-lg p-1 shadow-sm flex-shrink-0">
                     <button className="p-2 rounded-md bg-primary text-primary-foreground">
                       <Grid3X3 className="w-4 h-4" />
                     </button>
@@ -412,33 +479,82 @@ const Products = () => {
                 </div>
               )}
 
-              {/* Products Grid - 4 per row with independent scroll */}
-              <div className="flex-1 overflow-y-auto custom-scrollbar pr-2">
+              {/* Products Grid - Vertical scroll on mobile, grid on desktop */}
+              <div className="flex-1 overflow-y-auto overflow-x-hidden custom-scrollbar pr-2 min-h-0">
                 {filteredProducts.length > 0 ? (
                   <>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-                      {filteredProducts.map((product, index) => (
-                        <ProductCard key={product.product_id} product={product} index={index} />
-                      ))}
+                    {/* Mobile: Single Column Vertical Scroll - Only visible on mobile (< 768px) */}
+                    <div className="md:hidden">
+                      <div className="grid grid-cols-1 gap-4 pb-6">
+                        {filteredProducts.map((product, index) => (
+                          <ProductCard key={product.product_id} product={product} index={index} isMobile={true} />
+                        ))}
+                      </div>
+
+                      {/* Load More */}
+                      {filteredProducts.length > 16 && (
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 0.5 }}
+                          className="flex justify-center mt-6 pb-8"
+                        >
+                          <button className="px-6 py-2.5 bg-primary text-primary-foreground font-semibold rounded-full hover:bg-primary/90 transition-colors shadow-lg text-sm">
+                            Load More Products
+                          </button>
+                        </motion.div>
+                      )}
                     </div>
 
-                    {/* Load More */}
-                    {filteredProducts.length > 16 && (
-                      <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: 0.5 }}
-                        className="flex justify-center mt-12 pb-8"
-                      >
-                        <button className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-full hover:bg-primary/90 transition-colors shadow-lg">
-                          Load More Products
-                        </button>
-                      </motion.div>
-                    )}
+                    {/* Tablet: 2 Column Grid - Visible from md to lg */}
+                    <div className="hidden md:block lg:hidden">
+                      <div className="grid grid-cols-2 gap-4 sm:gap-5">
+                        {filteredProducts.map((product, index) => (
+                          <ProductCard key={product.product_id} product={product} index={index} />
+                        ))}
+                      </div>
+
+                      {/* Load More */}
+                      {filteredProducts.length > 16 && (
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 0.5 }}
+                          className="flex justify-center mt-8 pb-8"
+                        >
+                          <button className="px-6 py-2.5 sm:px-8 sm:py-3 bg-primary text-primary-foreground font-semibold rounded-full hover:bg-primary/90 transition-colors shadow-lg text-sm sm:text-base">
+                            Load More Products
+                          </button>
+                        </motion.div>
+                      )}
+                    </div>
+
+                    {/* Desktop: Grid Layout - Visible from lg breakpoint */}
+                    <div className="hidden lg:block">
+                      <div className="grid grid-cols-3 xl:grid-cols-4 gap-5">
+                        {filteredProducts.map((product, index) => (
+                          <ProductCard key={product.product_id} product={product} index={index} />
+                        ))}
+                      </div>
+
+                      {/* Load More */}
+                      {filteredProducts.length > 16 && (
+                        <motion.div
+                          initial={{ opacity: 0 }}
+                          animate={{ opacity: 1 }}
+                          transition={{ delay: 0.5 }}
+                          className="flex justify-center mt-12 pb-8"
+                        >
+                          <button className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-full hover:bg-primary/90 transition-colors shadow-lg">
+                            Load More Products
+                          </button>
+                        </motion.div>
+                      )}
+                    </div>
                   </>
                 ) : (
-                  <div className="flex items-center justify-center h-full">
-                    <p className="text-muted-foreground">No products found matching your filters.</p>
+                  <div className="flex items-center justify-center h-full min-h-[200px]">
+                    <p className="text-muted-foreground text-sm sm:text-base">No products found matching your filters.</p>
                   </div>
                 )}
               </div>

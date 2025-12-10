@@ -3,20 +3,20 @@ import catRespiratory from "@/assets/cat-respiratory.png";
 const Newsletter = () => {
 
   return (
-    <section className="relative z-20 py-12 lg:py-16 bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100">
-      <div className="container mx-auto px-6 lg:px-12">
-        <div className="relative bg-white rounded-3xl p-8 lg:p-12 overflow-hidden shadow-lg">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
+    <section className="relative z-20 py-8 sm:py-12 lg:py-16 bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="relative bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 lg:p-12 overflow-hidden shadow-lg">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-center">
             {/* Content */}
             <div className="relative z-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#0f3d1f] mb-3">Know about the Founder</p>
-              <h2 className="text-2xl lg:text-4xl font-black text-gray-900 mb-4">
+              <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-[#0f3d1f] mb-2 sm:mb-3">Know about the Founder</p>
+              <h2 className="text-xl sm:text-2xl lg:text-4xl font-black text-gray-900 mb-3 sm:mb-4">
                 Atul Anand
               </h2>
-              <p className="text-sm text-gray-700 mb-4 max-w-3xl leading-relaxed">
+              <p className="text-xs sm:text-sm text-gray-700 mb-4 max-w-3xl leading-relaxed">
                 Atul Anand is the Founder & CEO of Prosmart Concepts, a Mumbai-based enterprise specialising in healthcare, medical supplies and import of special & general products. With a vision to bridge the gap between global standards and local Indian markets, Atul embarked on this entrepreneurial journey to deliver high-quality healthcare-related products and services with integrity and responsiveness. His leadership has anchored the firm in a dynamic, fast-changing industry landscape.
               </p>
-              <div className="inline-flex items-center gap-2 bg-gray-100 text-gray-800 px-4 py-2 rounded-full text-xs font-semibold">
+              <div className="inline-flex items-center gap-2 bg-gray-100 text-gray-800 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-semibold">
                 <span className="text-[#0f3d1f]">GlobalLinker</span>
                 <span className="text-gray-500">+1</span>
               </div>

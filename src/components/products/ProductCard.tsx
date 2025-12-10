@@ -7,9 +7,10 @@ import { Product } from '@/types/product';
 interface ProductCardProps {
   product: Product;
   index: number;
+  isMobile?: boolean;
 }
 
-const ProductCard = ({ product, index }: ProductCardProps) => {
+const ProductCard = ({ product, index, isMobile = false }: ProductCardProps) => {
   const [isLiked, setIsLiked] = useState(false);
 
   // Use product_price if available, otherwise generate price based on product_id
@@ -49,7 +50,11 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: index * 0.03, duration: 0.4 }}
-        className="group relative bg-white border-2 border-gray-300 shadow-sm hover:shadow-lg transition-all duration-300 rounded-[2rem_2rem_1rem_1rem] overflow-hidden"
+        className={`group relative border-2 shadow-sm hover:shadow-lg transition-all duration-300 rounded-[2rem_2rem_1rem_1rem] overflow-hidden ${
+          isMobile 
+            ? 'bg-white/80 backdrop-blur-md border-white/50' 
+            : 'bg-white border-gray-300'
+        }`}
       >
       {/* Like Button */}
       <button

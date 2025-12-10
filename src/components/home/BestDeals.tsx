@@ -80,15 +80,15 @@ const BestDeals = () => {
   }, [activeCategory, categories]);
 
   return (
-    <section className="relative z-20 py-12 lg:py-20 bg-white">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="relative z-20 py-8 sm:py-12 lg:py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 mb-10">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 sm:gap-6 mb-6 sm:mb-10">
           <div>
-            <h2 className="text-2xl lg:text-4xl font-black text-gray-900">
+            <h2 className="text-xl sm:text-2xl lg:text-4xl font-black text-gray-900">
               Best Deals <span className="text-[#1a5d1a]">For You</span>
             </h2>
-            <p className="text-sm text-gray-500 mt-2">
+            <p className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-2">
               Deals ends in:{" "}
               <span className="text-orange-500 font-bold">{formattedTimer}</span>
             </p>
@@ -100,7 +100,7 @@ const BestDeals = () => {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-all ${
+                className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-semibold whitespace-nowrap transition-all ${
                   activeCategory === cat 
                     ? 'bg-[#1a5d1a] text-white' 
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
@@ -120,16 +120,16 @@ const BestDeals = () => {
         </div>
 
         {/* Products Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
           {productsToShow.map((product, index) => (
             <Link
               key={product.product_id}
               to={`/products/${product.product_id}${product.category_id}`}
-              className="group bg-white border-2 border-black rounded-2xl p-4 hover:shadow-xl transition-all duration-300 animate-fade-in-up"
+              className="group bg-white border-2 border-black rounded-xl sm:rounded-2xl p-3 sm:p-4 hover:shadow-xl transition-all duration-300 animate-fade-in-up"
               style={{ animationDelay: `${index * 0.05}s` }}
             >
               {/* Image Container */}
-              <div className="relative bg-gray-50 rounded-xl p-4 mb-4 aspect-square flex items-center justify-center overflow-hidden">
+              <div className="relative bg-gray-50 rounded-lg sm:rounded-xl p-3 sm:p-4 mb-3 sm:mb-4 aspect-square flex items-center justify-center overflow-hidden">
                 <img 
                   src={product.image_urls?.[0] ?? "/placeholder.png"}
                   alt={product.product_name}
@@ -138,22 +138,22 @@ const BestDeals = () => {
               </div>
               
               {/* Rating */}
-              <div className="flex items-center gap-1 mb-2">
+              <div className="flex items-center gap-1 mb-1.5 sm:mb-2">
                 <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-                <span className="text-xs font-medium text-gray-600">{product.rating ?? 4.8}</span>
+                <span className="text-[10px] sm:text-xs font-medium text-gray-600">{product.rating ?? 4.8}</span>
               </div>
               
               {/* Product Info */}
-              <h3 className="font-semibold text-sm text-gray-900 line-clamp-2 mb-1">
+              <h3 className="font-semibold text-xs sm:text-sm text-gray-900 line-clamp-2 mb-1">
                 {product.product_name}
               </h3>
-              <p className="text-xs text-gray-500 mb-2 line-clamp-2">
+              <p className="text-[10px] sm:text-xs text-gray-500 mb-2 line-clamp-2">
                 {product.product_title}
               </p>
               
               {/* Price */}
               <div className="flex items-center gap-2">
-                <span className="font-bold text-[#1a5d1a]">
+                <span className="font-bold text-sm sm:text-base text-[#1a5d1a]">
                   {product.product_price ?? "Price on request"}
                 </span>
               </div>
