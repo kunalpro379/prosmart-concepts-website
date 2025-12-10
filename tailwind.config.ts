@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+// @ts-ignore
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -130,5 +132,11 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
+  corePlugins: {
+    backdropFilter: true,
+  },
 } satisfies Config;
