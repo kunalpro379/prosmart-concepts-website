@@ -253,10 +253,8 @@ const Index = () => {
             </div>
 
             {/* Mobile menu button */}
-            <button className="lg:hidden p-2">
-              <div className="w-5 h-0.5 bg-gray-800 mb-1"></div>
-              <div className="w-5 h-0.5 bg-gray-800 mb-1"></div>
-              <div className="w-5 h-0.5 bg-gray-800"></div>
+            <button className="flex w-full justify-center items-center lg:hidden p-2">
+              <Link to="/products" className="w-5 h-0.5 bg-gray-800 mb-1">Products</Link>
             </button>
           </div>
         </div>
@@ -350,7 +348,7 @@ const Index = () => {
               </div>
 
               {/* 3D Animated Cards on right - Hidden on mobile to prevent overlap */}
-              <div className="hidden lg:flex lg:items-center lg:justify-center lg:flex-1 lg:max-w-2xl animate-slide-in-right">
+              <div className="flex flex-col lg:flex lg:items-center lg:justify-center lg:flex-1 lg:max-w-2xl animate-slide-in-right">
                 <AnimatedCards 
                   cards={heroCards}
                   totalCards={10}

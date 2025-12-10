@@ -55,7 +55,7 @@ const AnimatedCards = ({
 
   return (
     <div 
-      className="relative flex items-center justify-center h-[400px] lg:h-[450px] xl:h-[500px] w-full"
+      className="relative flex sm:items-start pt-6 lg:items-center justify-center h-[400px] lg:h-[450px] xl:h-[500px] w-full"
       style={{ 
         perspective: "1200px", 
         transformStyle: "preserve-3d",
