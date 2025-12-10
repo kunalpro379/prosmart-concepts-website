@@ -1,4 +1,4 @@
-import catRespiratory from "@/assets/atul_anand.png";
+import catRespiratory from "@/assets/prosmart_logo.jpeg";
 
 const Newsletter = () => {
 
