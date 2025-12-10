@@ -1,4 +1,4 @@
-import catRespiratory from "@/assets/cat-respiratory.png";
+import catRespiratory from "@/assets/atul_anand.png";
 
 const Newsletter = () => {
 

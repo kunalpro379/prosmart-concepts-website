@@ -469,14 +469,6 @@ const ProductDetail = () => {
                 </div>
               )}
 
-              {/* Price */}
-              <div className="py-4 border-y border-border">
-                <div className="flex items-baseline gap-3">
-                  <p className="font-display text-4xl font-bold text-primary">{formatPrice(price)}</p>
-                  <span className="text-sm text-muted-foreground">Inclusive of all taxes</span>
-                </div>
-              </div>
-
               {/* Key Features removed as requested */}
 
               {/* Quantity Selector removed as requested */}
@@ -486,7 +478,7 @@ const ProductDetail = () => {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full border-2 border-blue-900 text-blue-900 bg-transparent hover:bg-blue-50 hover:text-blue-900"
+                  className="w-full border-2 border-cyan-900 text-cyan-900 bg-transparent hover:bg-cyan-50 hover:text-cyan-900"
                   onClick={handleBuyNow}
                 >
                   Contact Us

@@ -18,7 +18,7 @@ const BrowseByStyle = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl lg:text-4xl font-black text-gray-900">
-            BROWSE BY <span className="text-[#1a5d1a]">care</span> STYLE
+            BROWSE BY <span className="text-cyan-500">care</span> STYLE
           </h2>
         </div>
 

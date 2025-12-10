@@ -86,7 +86,7 @@ const BestDeals = () => {
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 sm:gap-6 mb-6 sm:mb-10">
           <div>
             <h2 className="text-xl sm:text-2xl lg:text-4xl font-black text-gray-900">
-              Best Deals <span className="text-[#1a5d1a]">For You</span>
+              Best Deals <span className="text-cyan-500">For You</span>
             </h2>
             <p className="text-xs sm:text-sm text-gray-500 mt-1 sm:mt-2">
               Deals ends in:{" "}
@@ -102,7 +102,7 @@ const BestDeals = () => {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-[10px] sm:text-xs font-semibold whitespace-nowrap transition-all ${
                   activeCategory === cat 
-                    ? 'bg-[#1a5d1a] text-white' 
+                    ? 'bg-cyan-500 text-white' 
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
@@ -153,7 +153,7 @@ const BestDeals = () => {
               
               {/* Price */}
               <div className="flex items-center gap-2">
-                <span className="font-bold text-sm sm:text-base text-[#1a5d1a]">
+                <span className="font-bold text-sm sm:text-base text-cyan-500">
                   {product.product_price ?? "Price on request"}
                 </span>
               </div>

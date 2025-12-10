@@ -74,7 +74,7 @@ const LatestNews = () => {
                 <Calendar className="w-3 h-3" />
                 {article.date}
               </div>
-              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-[#1a5d1a] transition-colors">
+              <h3 className="font-bold text-lg text-gray-900 mb-2 group-hover:text-cyan-500 transition-colors">
                 {article.title}
               </h3>
               <p className="text-sm text-gray-600 line-clamp-2">{article.excerpt}</p>

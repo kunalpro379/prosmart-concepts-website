@@ -72,10 +72,10 @@ const AnimatedCards = ({
               ...style,
               transformStyle: "preserve-3d",
               backfaceVisibility: "hidden",
-              background: "rgba(255, 255, 255, 0.15)",
+              background: "rgba(55, 54, 54, 0.15)",
               backdropFilter: "saturate(180%) blur(20px)",
               WebkitBackdropFilter: "saturate(180%) blur(20px)",
-              borderColor: "rgba(255, 255, 255, 0.8)",
+              borderColor: "rgba(255, 255, 255, 0.23)",
               boxShadow: "0 20px 60px rgba(0, 0, 0, 0.2)",
             }}
           >

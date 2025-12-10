@@ -56,18 +56,6 @@ const ProductCard = ({ product, index, isMobile = false }: ProductCardProps) => 
             : 'bg-white border-gray-300'
         }`}
       >
-      {/* Like Button */}
-      <button
-        onClick={() => setIsLiked(!isLiked)}
-        className="absolute top-3 right-3 z-10 w-8 h-8 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm hover:bg-white transition-colors"
-      >
-        <Heart 
-          className={`w-4 h-4 transition-colors ${
-            isLiked ? 'fill-red-500 text-red-500' : 'text-gray-600 hover:text-red-500'
-          }`}
-        />
-      </button>
-
       {/* Discount Badge */}
       {hasDiscount && (
         <div className="absolute top-3 left-3 z-10 bg-yellow-400 text-black text-xs font-bold px-2.5 py-1 rounded-md">
@@ -112,17 +100,9 @@ const ProductCard = ({ product, index, isMobile = false }: ProductCardProps) => 
         {/* Bottom Section: Button and Price */}
         <div className="flex items-center justify-between gap-3 pt-1">
           {/* Contact Us Button */}
-          <button className="flex items-center gap-1 px-4 py-2 bg-cyan-500 text-white hover:bg-cyan-600 transition-colors rounded-full text-xs font-medium whitespace-nowrap shadow-sm">
+          <button className="flex items-center gap-1 px-4 py-2 bg-cyan-500 text-white hover:bg-cyan-500 transition-colors rounded-full text-xs font-medium whitespace-nowrap shadow-sm">
             Contact Us
           </button>
-
-          {/* Price */}
-          <div className="flex items-center gap-2 flex-shrink-0">
-            {originalPrice && (
-              <span className="text-gray-400 text-xs line-through">{formatPrice(originalPrice)}</span>
-            )}
-            <span className="text-blue-900 text-base font-bold">{formatPrice(price)}</span>
-          </div>
         </div>
       </div>
       </motion.div>

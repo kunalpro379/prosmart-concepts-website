@@ -65,32 +65,8 @@ const ProductFilters = ({
         )}
       </div>
 
-      {/* Price Range Slider */}
-      <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h4 className="text-sm font-semibold text-foreground">Price Range</h4>
-          <span className="text-xs text-muted-foreground font-medium bg-muted px-2 py-1 rounded-full">
-            ${localPriceRange[0]} - ${localPriceRange[1]}
-          </span>
-        </div>
-        <div className="px-1">
-          <Slider
-            value={localPriceRange}
-            onValueChange={handlePriceChange}
-            max={500}
-            min={0}
-            step={10}
-            className="w-full"
-          />
-        </div>
-        <div className="flex justify-between text-xs text-muted-foreground">
-          <span>$0</span>
-          <span>$500+</span>
-        </div>
-      </div>
-
       {/* Category Dropdown */}
-      <div className="space-y-3 pt-4 border-t border-border">
+      <div className="space-y-3">
         <h4 className="text-sm font-semibold text-foreground">Category</h4>
         <Select
           value={selectedCategories[0] || ''}

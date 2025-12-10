@@ -51,7 +51,7 @@ const CategoryShowcase = () => {
               <div className="relative z-10">
                 <h3 className="text-base sm:text-xl font-bold text-gray-900 mb-0.5 sm:mb-1">{cat.name}</h3>
                 <p className="text-xs sm:text-sm text-gray-500">{cat.products}</p>
-                <span className="inline-flex items-center gap-1 mt-3 sm:mt-4 text-xs sm:text-sm font-semibold text-[#1a5d1a]">
+                <span className="inline-flex items-center gap-1 mt-3 sm:mt-4 text-xs sm:text-sm font-semibold text-cyan-500">
                   Shop Now <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </span>
               </div>

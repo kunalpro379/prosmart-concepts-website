@@ -21,7 +21,7 @@ const FeaturedProduct = () => {
             </p>
             <Link 
               to="/products"
-              className="inline-flex items-center gap-2 bg-[#1a5d1a] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-semibold hover:bg-[#0d3d0d] transition-colors group"
+              className="inline-flex items-center gap-2 bg-cyan-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-semibold hover:bg-[#0d3d0d] transition-colors group"
             >
               SHOP NOW
               <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform" />
@@ -68,7 +68,7 @@ const FeaturedProduct = () => {
               Lighting & Portable Lamps
               </h3>
               
-              <p className="text-base sm:text-lg font-bold text-[#1a5d1a] mt-2">₹4,999</p>
+              <p className="text-base sm:text-lg font-bold text-cyan-500 mt-2">₹4,999</p>
 
               <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-6 max-w-xs pr-16">
               I.M.LAB Portable Smart Wireless LED Lamp
@@ -91,7 +91,7 @@ const FeaturedProduct = () => {
         {/* Trust Badges */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-6 sm:pt-8 border-t border-gray-100">
           <div className="flex items-center gap-2 sm:gap-4 group">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-[#1a5d1a] group-hover:text-white transition-colors shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-cyan-500 group-hover:text-white transition-colors shrink-0">
               <Truck className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div>
@@ -100,7 +100,7 @@ const FeaturedProduct = () => {
             </div>
           </div>
           <div className="flex items-center gap-2 sm:gap-4 group">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-[#1a5d1a] group-hover:text-white transition-colors shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-cyan-500 group-hover:text-white transition-colors shrink-0">
               <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div>
@@ -109,7 +109,7 @@ const FeaturedProduct = () => {
             </div>
           </div>
           <div className="flex items-center gap-2 sm:gap-4 group">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-[#1a5d1a] group-hover:text-white transition-colors shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-cyan-500 group-hover:text-white transition-colors shrink-0">
               <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div>
@@ -118,7 +118,7 @@ const FeaturedProduct = () => {
             </div>
           </div>
           <div className="flex items-center gap-2 sm:gap-4 group">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-[#1a5d1a] group-hover:text-white transition-colors shrink-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-cyan-500 group-hover:text-white transition-colors shrink-0">
               <Headphones className="w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div>

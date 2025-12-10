@@ -255,7 +255,7 @@ const Products = () => {
     <div className="h-screen overflow-hidden bg-white flex flex-col">
       <ProductsHeader />
 
-      <main className="relative flex-1 bg-gradient-to-br from-emerald-100/90 via-cyan-100/85 to-sky-200/80 backdrop-blur-sm rounded-t-2xl shadow-xl py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden">
+      <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-2xl shadow-xl py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden pt-20">
         <div className="pointer-events-none absolute inset-0 bg-white/35 backdrop-blur-md" />
         <div className="relative z-10 flex flex-col h-full">
           {/* Page Header */}
@@ -264,9 +264,8 @@ const Products = () => {
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="text-4xl md:text-5xl font-bold text-foreground mb-2"
-              >
-                OUR PRODUCTS
+                className="text-2xl md:text-3xl font-bold text-foreground mb-2"
+              >OUR PRODUCTS
               </motion.h1>
 
               {/* Breadcrumb */}
@@ -292,7 +291,7 @@ const Products = () => {
                 }}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex-shrink-0 ${
                   activeTab === 'All Items'
-                    ? 'bg-white border-2 border-blue-600 text-blue-600 shadow-sm'
+                    ? 'bg-white border-2 border-cyan-600 text-cyan-600 shadow-sm'
                     : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
                 }`}
               >
@@ -308,7 +307,7 @@ const Products = () => {
                   }}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex-shrink-0 ${
                     activeTab === tab
-                      ? 'bg-white border-2 border-blue-600 text-blue-600 shadow-sm'
+                      ? 'bg-white border-2 border-cyan-600 text-cyan-600 shadow-sm'
                       : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
                   }`}
                 >
@@ -431,25 +430,6 @@ const Products = () => {
                       </motion.div>
                     </>
                   )}
-                </div>
-
-                <div className="flex items-center gap-3 sm:gap-4 ml-auto flex-shrink-0">
-                  <span className="text-muted-foreground text-xs sm:text-sm font-medium whitespace-nowrap">
-                    {filteredProducts.length} products
-                  </span>
-
-                  <button className="hidden sm:flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm hover:bg-muted transition-colors shadow-sm flex-shrink-0">
-                    Sort by
-                  </button>
-
-                  <div className="hidden md:flex items-center gap-1 bg-card border border-border rounded-lg p-1 shadow-sm flex-shrink-0">
-                    <button className="p-2 rounded-md bg-primary text-primary-foreground">
-                      <Grid3X3 className="w-4 h-4" />
-                    </button>
-                    <button className="p-2 rounded-md text-muted-foreground hover:text-foreground transition-colors">
-                      <LayoutGrid className="w-4 h-4" />
-                    </button>
-                  </div>
                 </div>
               </motion.div>
 

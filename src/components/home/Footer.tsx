@@ -48,15 +48,15 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-6">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-[#1a5d1a] flex-shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-cyan-500 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-400">Mumbai, Maharashtra, India</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-[#1a5d1a] flex-shrink-0" />
+                <Phone className="w-5 h-5 text-cyan-500 flex-shrink-0" />
                 <span className="text-sm text-gray-400">+91 98765 43210</span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-[#1a5d1a] flex-shrink-0" />
+                <Mail className="w-5 h-5 text-cyan-500 flex-shrink-0" />
                 <span className="text-sm text-gray-400">info@prosmartconcepts.com</span>
               </li>
             </ul>

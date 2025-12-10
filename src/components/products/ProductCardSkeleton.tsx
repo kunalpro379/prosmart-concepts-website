@@ -33,11 +33,6 @@ const ProductCardSkeleton = ({ index }: ProductCardSkeletonProps) => {
 
         {/* Add to Cart Button Skeleton */}
         <div className="h-8 w-full bg-slate-200 rounded-full animate-shimmer" />
-
-        {/* Price Skeleton */}
-        <div className="flex items-center gap-2 pt-1">
-          <div className="h-6 w-20 bg-slate-200 rounded animate-shimmer" />
-        </div>
       </div>
     </motion.div>
   );

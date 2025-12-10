@@ -144,7 +144,7 @@ const Index = () => {
       title: "Initial Consultation",
       description: "Share your requirements and we understand your unique business needs.",
       image: "/consultation.png",
-      gradient: "from-blue-500 to-cyan-400",
+      gradient: "from-cyan-500 to-cyan-400",
     },
     {
       id: 2,
@@ -223,11 +223,11 @@ const Index = () => {
             {/* Search */}
             <div className="hidden lg:flex items-center flex-1 max-w-sm mx-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="relative w-full">
-                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#1a5d1a]" />
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-cyan-500" />
                 <input
                   type="text"
                   placeholder="Search products"
-                  className="w-full pl-11 pr-4 py-2.5 rounded-full bg-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-[#1a5d1a]/20 placeholder:text-gray-400"
+                  className="w-full pl-11 pr-4 py-2.5 rounded-full bg-gray-100 text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500/20 placeholder:text-gray-400"
                 />
               </div>
             </div>
@@ -235,17 +235,17 @@ const Index = () => {
             {/* Contact Info */}
             <div className="hidden lg:flex items-center gap-4 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="flex items-center gap-2 text-sm font-medium text-gray-800">
-                <MapPin className="w-4 h-4 text-[#1a5d1a]" />
+                <MapPin className="w-4 h-4 text-cyan-500" />
                 <span>Mumbai</span>
               </div>
               <div className="flex items-center gap-2 text-sm font-medium text-gray-800">
-                <User className="w-4 h-4 text-[#1a5d1a]" />
+                <User className="w-4 h-4 text-cyan-500" />
                 <a href="mailto:online@prosmart.com" className="hover:text-[#0d3d0d] transition-colors">
                   online@prosmart.com
                 </a>
               </div>
               <div className="flex items-center gap-2 text-sm font-medium text-gray-800">
-                <Phone className="w-4 h-4 text-[#1a5d1a]" />
+                <Phone className="w-4 h-4 text-cyan-500" />
                 <a href="tel:+919111111111" className="hover:text-[#0d3d0d] transition-colors">
                   +91 9111111111
                 </a>
@@ -294,14 +294,14 @@ const Index = () => {
                   CONCEPT
                 </h1>
                 
-                <p className="text-xs sm:text-sm lg:text-base text-yellow-400 max-w-3xl leading-relaxed">
+                <p className="text-xs sm:text-sm lg:text-base text-white max-w-3xl leading-relaxed">
                   ProSmart Concepts has been a trusted leader in India's business gifting industry for 17 years, consistently launching cutting-edge, high-impact gifting products for corporate clients.
                 </p>
 
                 {/* Trust Badges */}
                 <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-start gap-3 sm:gap-4 lg:gap-6 animate-fade-in-up">
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-green-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-cyan-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
                       <Truck className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
                     </div>
                     <div className="text-left">
@@ -310,7 +310,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-green-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-cyan-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
                       <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
                     </div>
                     <div className="text-left">
@@ -319,7 +319,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-green-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-cyan-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
                       <Tag className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
                     </div>
                     <div className="text-left">
@@ -328,7 +328,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-green-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full bg-cyan-200 flex items-center justify-center text-[#0f2e1b] shrink-0">
                       <MapPin className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
                     </div>
                     <div className="text-left">
@@ -374,7 +374,7 @@ const Index = () => {
             <div className="flex items-center justify-center mb-5 sm:mb-6 lg:mb-8">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-center">
                 <span className="text-black">Browse Our </span>
-                <span className="text-[#1a5d1a]">Collections</span>
+                <span className="text-cyan-500">Collections</span>
               </h2>
             </div>
 
@@ -432,7 +432,7 @@ const Index = () => {
                     <span className="text-[#0f3d1f] font-bold text-sm sm:text-base">{item.price}</span>
                     <Link
                       to="/products"
-                      className="text-xs sm:text-sm font-semibold text-[#1a5d1a] hover:text-[#0d3d0d] inline-flex items-center gap-1"
+                      className="text-xs sm:text-sm font-semibold text-cyan-500 hover:text-[#0d3d0d] inline-flex items-center gap-1"
                     >
                       Shop now <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
                     </Link>
@@ -448,11 +448,11 @@ const Index = () => {
         <section className="relative z-20 py-10 sm:py-14 lg:py-18 bg-gradient-to-b from-white via-gray-50 to-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8 sm:mb-12">
-              <span className="inline-block px-3 sm:px-4 py-1 sm:py-1.5 bg-[#1a5d1a]/10 text-[#1a5d1a] text-[10px] sm:text-xs lg:text-sm font-semibold rounded-full mb-2 sm:mb-3 uppercase tracking-[0.12em]">
+              <span className="inline-block px-3 sm:px-4 py-1 sm:py-1.5 bg-cyan-500/10 text-cyan-500 text-[10px] sm:text-xs lg:text-sm font-semibold rounded-full mb-2 sm:mb-3 uppercase tracking-[0.12em]">
                 Our Process
               </span>
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-gray-900">
-                How We <span className="text-[#1a5d1a]">Work</span>
+                How We <span className="text-cyan-500">Work</span>
               </h2>
               <p className="text-xs sm:text-sm lg:text-base text-gray-600 mt-2 sm:mt-3 px-4">
                 A streamlined process designed for your convenience
@@ -460,7 +460,7 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="hidden md:block absolute left-0 right-0 top-[50px] lg:top-[70px] border-t-2 border-dashed border-[#1a5d1a]/30" />
+              <div className="hidden md:block absolute left-0 right-0 top-[50px] lg:top-[70px] border-t-2 border-dashed border-cyan-500/30" />
 
               <div className="grid grid-cols-2 md:flex md:flex-row items-start justify-between gap-6 sm:gap-8 lg:gap-6 relative">
                 {processSteps.map((step) => (
@@ -478,7 +478,7 @@ const Index = () => {
                           />
                         </div>
                       </div>
-                      <div className="inline-flex items-center justify-center px-2 sm:px-3 py-0.5 sm:py-1 rounded-full bg-white border border-[#1a5d1a]/20 text-[10px] sm:text-xs font-semibold text-gray-700 shadow-sm">
+                      <div className="inline-flex items-center justify-center px-2 sm:px-3 py-0.5 sm:py-1 rounded-full bg-white border border-cyan-500/20 text-[10px] sm:text-xs font-semibold text-gray-700 shadow-sm">
                         {step.id.toString().padStart(2, "0")}
                       </div>
                     </div>
@@ -524,13 +524,13 @@ const Index = () => {
           </style>
           <div className="w-full">
             <div className="w-full flex flex-col items-center gap-1.5 sm:gap-2 mb-6 sm:mb-8 px-4 text-center">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-[#1a5d1a]">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-black text-cyan-500">
                 What our Customers say
               </h2>
               <div className="flex items-center gap-2">
                 <div className="flex gap-0.5 sm:gap-1">
                   {[1,2,3,4,5].map((i) => (
-                    <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-[#1a5d1a] text-[#1a5d1a]" />
+                    <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-cyan-500 text-cyan-500" />
                   ))}
                 </div>
                 <span className="text-xs sm:text-sm text-gray-600">500+ Reviews on Google</span>
@@ -548,7 +548,7 @@ const Index = () => {
                     <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 line-clamp-4">"{item.quote}"</p>
                     <div className="flex gap-0.5 mb-1.5 sm:mb-2">
                       {Array.from({ length: item.rating }).map((_, i) => (
-                        <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-[#1a5d1a] text-[#1a5d1a]" />
+                        <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-cyan-500 text-cyan-500" />
                       ))}
                     </div>
                     <p className="font-semibold text-xs sm:text-sm text-gray-900">{item.author}</p>
@@ -569,7 +569,7 @@ const Index = () => {
                     <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 line-clamp-4">"{item.quote}"</p>
                     <div className="flex gap-0.5 mb-1.5 sm:mb-2">
                       {Array.from({ length: item.rating }).map((_, i) => (
-                        <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-[#1a5d1a] text-[#1a5d1a]" />
+                        <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-cyan-500 text-cyan-500" />
                       ))}
                     </div>
                     <p className="font-semibold text-xs sm:text-sm text-gray-900">{item.author}</p>
@@ -591,12 +591,12 @@ const Index = () => {
             <div className="bg-gray-50 border border-gray-200 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 shadow-sm grid lg:grid-cols-[1.05fr_1fr] gap-6 sm:gap-8 items-center">
               <div className="space-y-3 sm:space-y-4">
                 <div>
-                  <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-[#1a5d1a] mb-1.5 sm:mb-2">Legal Address</p>
+                  <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.14em] text-cyan-500 mb-1.5 sm:mb-2">Legal Address</p>
                   <h3 className="text-xl sm:text-2xl font-black text-gray-900">ProSmart Concepts</h3>
                 </div>
                 <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm text-gray-700">
                   <p className="font-semibold text-gray-800">Address</p>
-                  <p>3 UJAGAR CHAMBERS, OPP DEONAR BUS, DEPOT ST, NEAR SUNDER BAUG,</p>
+                  <p>Unit No 25/26, Vaibhav Industrial Estate, PROSMART CONCEPTS, Opposite ADONIS RAHEJA ACROPOLIS, Near Govandi Police Station Lane, Chembur</p>
                   <p><span className="font-semibold">Postcode:</span> 400088</p>
                   <p><span className="font-semibold">City/Parish:</span> MUMBAI</p>
                   <p><span className="font-semibold">Country:</span> India</p>
@@ -606,7 +606,7 @@ const Index = () => {
                     href="https://www.google.com/maps/place/PROSMART+CONCEPTS/@19.0471925,72.9143037,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c71258928bd1:0xab70c3ebf58e6727!8m2!3d19.0471874!4d72.9168786!16s%2Fg%2F11h_wsstp1?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-[#1a5d1a] hover:text-[#0d3d0d]"
+                    className="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-cyan-500 hover:text-[#0d3d0d]"
                   >
                     View on Google Maps
                     <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
