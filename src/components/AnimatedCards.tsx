@@ -55,19 +55,28 @@ const AnimatedCards = ({
 
   return (
     <div 
-      className="relative flex items-center justify-center h-[400px] lg:h-[450px] xl:h-[500px] w-full min-w-[400px] lg:min-w-[500px]"
-      style={{ perspective: "1200px", transformStyle: "preserve-3d" }}
+      className="relative flex items-center justify-center h-[400px] lg:h-[450px] xl:h-[500px] w-full"
+      style={{ 
+        perspective: "1200px", 
+        transformStyle: "preserve-3d",
+        minWidth: "400px"
+      }}
     >
       {cards.map((card, i) => {
         const style = getCardStyle(i);
         return (
           <div
             key={i}
-            className="absolute w-56 h-64 lg:w-64 lg:h-72 xl:w-72 xl:h-80 rounded-2xl lg:rounded-3xl bg-white/10 backdrop-blur-3xl border-2 border-white/80 shadow-[0_20px_60px_rgba(0,0,0,0.2)] overflow-hidden"
+            className="absolute w-56 h-64 lg:w-64 lg:h-72 xl:w-72 xl:h-80 rounded-2xl lg:rounded-3xl border-2 overflow-hidden"
             style={{
               ...style,
               transformStyle: "preserve-3d",
               backfaceVisibility: "hidden",
+              backgroundColor: "rgba(255, 255, 255, 0.1)",
+              backdropFilter: "blur(40px)",
+              WebkitBackdropFilter: "blur(40px)",
+              borderColor: "rgba(255, 255, 255, 0.8)",
+              boxShadow: "0 20px 60px rgba(0, 0, 0, 0.2)",
             }}
           >
             <div className="w-full h-full p-4 lg:p-5 xl:p-6 flex flex-col items-center justify-center">
