@@ -91,14 +91,14 @@ const Index = () => {
     {
       id: "prod_0093",
       name: "Neck Massagers",
-      subtitle: "Hydrolite F2 Electric Cervical Vertebra Massager",
+      subtitle: "Deep Tissue Electric Neck Massager with Heat, 3 Massage Modes, 8 Adjustable Intensity Levels, Rechargeable for Pain Relief and Relaxation",
       price: "₹3,999",
       image: "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670214/Massage__Therapy_Devices/Neck_Massagers/prod_0093/prod_0093_img1.jpg",
     },
     {
       id: "prod_0096",
-      name: "Lighting & Portable Lamps",
-      subtitle: "Portable smart wireless LED lamp",
+      name: "Skin and Scalp pH Tester",
+      subtitle: "The HI981037 Skin & Scalp pH Tester is designed to measure the pH of the skin and scalp. The built-in probe features an open reference junction, flat tip, and uses a non-flowing gelled reference electrolyte making it ideal for measuring the pH of surface of skin & scalp",
       price: "₹4,999",
       image: "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670202/Lighting__Portable_Lamps/Portable_LED_Lamps/prod_0096/prod_0096_img1.jpg",
       video: Video3,
@@ -423,7 +423,7 @@ const Index = () => {
                   className="group bg-white border-2 border-black/20 rounded-xl sm:rounded-xl p-1 sm:p-2 shadow-sm hover:shadow-xl transition-all duration-300 animate-fade-in-up"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="relative bg-gray-50 rounded-xl sm:rounded-xl overflow-hidden aspect-[4/3] flex items-center justify-center">
+                  <div className="relative bg-gray-50 p-3 rounded-xl sm:rounded-xl overflow-hidden aspect-[4/3] flex items-center justify-center">
                     {item.video ? (
                       <video src={item.video} autoPlay loop muted className="rounded-lg w-full h-full object-cover" />
                     ) : (
@@ -432,7 +432,7 @@ const Index = () => {
                   </div>
 
                   {/* Bottom content wrapped like category cards */}
-                  <div className="px-1 sm:px-2 pt-2 sm:pt-3">
+                  <div className="px-3">
                     <h3 className="font-bold text-base sm:text-lg text-gray-900 mb-1">
                       {item.name}
                     </h3>
@@ -440,7 +440,7 @@ const Index = () => {
                       {item.subtitle}
                     </p>
 
-                    <div className="flex items-center justify-between">
+                    <div className="p-3 flex items-center justify-center md:p-1 lg:p-1">
                       <Link
                         to="/products"
                         className="text-xs w-full flex justify-end items-end sm:text-sm font-semibold text-cyan-500 hover:text-[#0d3d0d] inline-flex items-center gap-1"
