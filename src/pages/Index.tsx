@@ -295,7 +295,7 @@ const Index = () => {
                 >
                   PROSMART<span className="lg:hidden"> </span>
                   <span className="hidden lg:inline-block"><br /></span>
-                  CONCEPT
+                  CONCEPTS
                 </h1>
 
                 <p className="text-xs sm:text-sm lg:text-base text-white max-w-3xl leading-relaxed">

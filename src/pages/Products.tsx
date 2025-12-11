@@ -241,7 +241,7 @@ const Products = () => {
     return (
       <div className="h-screen overflow-hidden bg-white flex flex-col">
         <ProductsHeader />
-        <main className="relative flex-1 bg-gradient-to-br from-emerald-50/80 via-cyan-50/60 to-sky-100/70 backdrop-blur-sm rounded-t-[3rem] shadow-xl py-8 px-8 lg:px-16 mx-6 lg:mx-12 overflow-hidden">
+        <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-3xl shadow-xl border-2 border-blue-100 py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden mt-20 lg:mt-24 pt-4">
           <div className="pointer-events-none absolute inset-0 bg-white/35 backdrop-blur-md" />
           <div className="relative z-10 flex flex-col h-full">
             <ProductsLoading />
@@ -255,18 +255,36 @@ const Products = () => {
     <div className="h-screen overflow-hidden bg-white flex flex-col">
       <ProductsHeader />
 
-      <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-2xl shadow-xl py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden pt-20">
+      <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-3xl shadow-xl border-2 border-blue-100 py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden mt-20 lg:mt-24 pt-4">
         <div className="pointer-events-none absolute inset-0 bg-white/35 backdrop-blur-md" />
         <div className="relative z-10 flex flex-col h-full">
           {/* Page Header */}
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8 flex-shrink-0">
-            <div>
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="text-2xl md:text-3xl font-bold text-foreground mb-2"
-              >OUR PRODUCTS
-              </motion.h1>
+            <div className="flex-1">
+              <div className="flex items-center justify-between gap-4 mb-2">
+                <motion.h1
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="text-2xl md:text-3xl font-bold text-foreground"
+                >OUR PRODUCTS
+                </motion.h1>
+                
+                {/* Filters Button - Right end */}
+                <div className="relative">
+                  <button
+                    onClick={() => setShowFilters(!showFilters)}
+                    className="flex items-center gap-2 px-3 py-1.5 bg-card border border-border rounded-lg text-muted-foreground text-xs font-medium shadow-sm flex-shrink-0 hover:bg-muted transition-colors"
+                  >
+                    <SlidersHorizontal className="w-4 h-4" />
+                    Filters
+                    {(selectedCategories.length > 0 || selectedSubcategories.length > 0) && (
+                      <span className="px-1.5 py-0.5 bg-primary text-primary-foreground text-xs font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center">
+                        {selectedCategories.length + selectedSubcategories.length}
+                      </span>
+                    )}
+                  </button>
+                </div>
+              </div>
 
               {/* Breadcrumb */}
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -281,7 +299,7 @@ const Products = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="flex flex-nowrap gap-2 overflow-x-auto no-scrollbar -mx-2 px-2 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0"
+              className="flex flex-nowrap gap-1.5 overflow-x-auto no-scrollbar -mx-2 px-2 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0"
             >
               <button
                 onClick={() => {
@@ -289,7 +307,7 @@ const Products = () => {
                   setSelectedCategories([]);
                   setSelectedSubcategories([]);
                 }}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex-shrink-0 ${
+                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all flex-shrink-0 ${
                   activeTab === 'All Items'
                     ? 'bg-white border-2 border-cyan-600 text-cyan-600 shadow-sm'
                     : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
@@ -305,7 +323,7 @@ const Products = () => {
                     setSelectedCategories([]);
                     setSelectedSubcategories([]);
                   }}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex-shrink-0 ${
+                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-all flex-shrink-0 ${
                     activeTab === tab
                       ? 'bg-white border-2 border-cyan-600 text-cyan-600 shadow-sm'
                       : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-300'
@@ -317,121 +335,71 @@ const Products = () => {
             </motion.div>
           </div>
 
-          <div className="flex gap-0 flex-1 overflow-hidden">
-            {/* Sidebar Filters - Independent Scroll */}
-            <motion.aside
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: showFilters ? 1 : 0, x: showFilters ? 0 : -20 }}
-              className={`w-80 flex-shrink-0 hidden lg:block ${!showFilters && 'lg:hidden'} h-full overflow-hidden`}
-            >
-              <div className="bg-card/80 backdrop-blur-sm rounded-xl shadow-lg border-2 border-gray-300 p-6 h-full overflow-y-auto custom-scrollbar no-scrollbar">
-                <ProductFilters
-                  categories={filteredCategories}
-                  subcategories={filteredSubcategories}
-                  selectedCategories={selectedCategories}
-                  selectedSubcategories={selectedSubcategories}
-                  onCategoryChange={handleCategoryChange}
-                  onSubcategoryChange={handleSubcategoryChange}
-                  onResetFilters={handleResetFilters}
-                  priceRange={[priceRange?.min || 0, priceRange?.max || 500]}
-                  onPriceChange={(range) => setPriceRange({ min: range[0], max: range[1] })}
-                />
-              </div>
-            </motion.aside>
+          {/* Filters Card Modal - Shows on all screen sizes when filter button is clicked */}
+          {showFilters && (
+            <>
+              {/* Backdrop */}
+              <div
+                className="fixed inset-0 bg-black/50 z-40"
+                onClick={() => setShowFilters(false)}
+              />
+              {/* Filters Card */}
+              <motion.div
+                initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                transition={{ duration: 0.2 }}
+                className="fixed top-24 right-4 lg:right-8 bg-card rounded-xl shadow-2xl border-2 border-border z-50 w-[calc(100%-2rem)] sm:w-96 lg:w-[28rem] max-h-[calc(100vh-7rem)] overflow-hidden flex flex-col"
+              >
+                {/* Card Header */}
+                <div className="flex items-center justify-between p-4 border-b border-border bg-muted/50">
+                  <h3 className="font-bold text-base text-foreground">Filters</h3>
+                  <button
+                    onClick={() => setShowFilters(false)}
+                    className="p-1.5 rounded-lg hover:bg-muted transition-colors"
+                  >
+                    <X className="w-5 h-5 text-muted-foreground" />
+                  </button>
+                </div>
 
-            {/* Dotted Line Separator */}
-            {showFilters && (
-              <div className="hidden lg:flex flex-col items-center px-6">
-                <div className="w-0 h-full border-l-2 border-dashed border-primary/30" />
-            </div>
-            )}
+                {/* Filters Content - Scrollable */}
+                <div className="overflow-y-auto flex-1 p-4">
+                  <ProductFilters
+                    categories={filteredCategories}
+                    subcategories={filteredSubcategories}
+                    selectedCategories={selectedCategories}
+                    selectedSubcategories={selectedSubcategories}
+                    onCategoryChange={handleCategoryChange}
+                    onSubcategoryChange={handleSubcategoryChange}
+                    onResetFilters={handleResetFilters}
+                    priceRange={[priceRange?.min || 0, priceRange?.max || 500]}
+                    onPriceChange={(range) => setPriceRange({ min: range[0], max: range[1] })}
+                  />
+                </div>
+
+                {/* Card Footer - Apply Button */}
+                <div className="p-4 border-t border-border bg-muted/50 flex gap-3">
+                  <button
+                    onClick={handleResetFilters}
+                    className="flex-1 px-4 py-2.5 border border-border rounded-lg text-muted-foreground font-medium hover:bg-muted transition-colors text-sm"
+                  >
+                    Reset
+                  </button>
+                  <button
+                    onClick={() => setShowFilters(false)}
+                    className="flex-1 px-4 py-2.5 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm"
+                  >
+                    Apply Filters
+                  </button>
+                </div>
+              </motion.div>
+            </>
+          )}
+
+          <div className="flex gap-0 flex-1 overflow-hidden">
 
             {/* Products Section - Independent Scroll */}
             <div className="flex-1 h-full overflow-hidden flex flex-col min-h-0 relative">
-              {/* Toolbar */}
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="flex items-center gap-3 sm:gap-4 justify-between mb-6 flex-shrink-0 overflow-x-auto no-scrollbar -mx-2 px-2 sm:overflow-visible sm:mx-0 sm:px-0"
-              >
-                {/* Mobile Filters Button - Only visible on mobile */}
-                <div className="relative md:hidden">
-                  <button
-                    onClick={() => setShowFilters(!showFilters)}
-                    className="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg text-muted-foreground text-sm shadow-sm flex-shrink-0 hover:bg-muted transition-colors"
-                  >
-                    <SlidersHorizontal className="w-4 h-4" />
-                    Filters
-                    {(selectedCategories.length > 0 || selectedSubcategories.length > 0) && (
-                      <span className="ml-1 px-1.5 py-0.5 bg-primary text-primary-foreground text-xs font-bold rounded-full min-w-[18px] h-[18px] flex items-center justify-center">
-                        {selectedCategories.length + selectedSubcategories.length}
-                      </span>
-                    )}
-                  </button>
-
-                  {/* Mobile Filters Dropdown Card */}
-                  {showFilters && (
-                    <>
-                      {/* Backdrop */}
-                      <div
-                        className="fixed inset-0 bg-black/50 z-40 md:hidden"
-                        onClick={() => setShowFilters(false)}
-                      />
-                      {/* Filters Card */}
-                      <motion.div
-                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
-                        animate={{ opacity: 1, y: 0, scale: 1 }}
-                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
-                        transition={{ duration: 0.2 }}
-                        className="fixed top-20 left-4 right-4 bg-card rounded-xl shadow-2xl border-2 border-border z-50 md:hidden max-h-[calc(100vh-6rem)] overflow-hidden flex flex-col"
-                      >
-                        {/* Card Header */}
-                        <div className="flex items-center justify-between p-4 border-b border-border bg-muted/50">
-                          <h3 className="font-bold text-base text-foreground">Filters</h3>
-                          <button
-                            onClick={() => setShowFilters(false)}
-                            className="p-1.5 rounded-lg hover:bg-muted transition-colors"
-                          >
-                            <X className="w-5 h-5 text-muted-foreground" />
-                          </button>
-                        </div>
-
-                        {/* Filters Content - Scrollable */}
-                        <div className="overflow-y-auto flex-1 p-4">
-                          <ProductFilters
-                            categories={filteredCategories}
-                            subcategories={filteredSubcategories}
-                            selectedCategories={selectedCategories}
-                            selectedSubcategories={selectedSubcategories}
-                            onCategoryChange={handleCategoryChange}
-                            onSubcategoryChange={handleSubcategoryChange}
-                            onResetFilters={handleResetFilters}
-                            priceRange={[priceRange?.min || 0, priceRange?.max || 500]}
-                            onPriceChange={(range) => setPriceRange({ min: range[0], max: range[1] })}
-                          />
-                        </div>
-
-                        {/* Card Footer - Apply Button */}
-                        <div className="p-4 border-t border-border bg-muted/50 flex gap-3">
-                          <button
-                            onClick={handleResetFilters}
-                            className="flex-1 px-4 py-2.5 border border-border rounded-lg text-muted-foreground font-medium hover:bg-muted transition-colors text-sm"
-                          >
-                            Reset
-                          </button>
-                          <button
-                            onClick={() => setShowFilters(false)}
-                            className="flex-1 px-4 py-2.5 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm"
-                          >
-                            Apply Filters
-                          </button>
-                        </div>
-                      </motion.div>
-                    </>
-                  )}
-                </div>
-              </motion.div>
 
               {/* Active Filters Display */}
               {(selectedCategories.length > 0 || selectedSubcategories.length > 0) && (
@@ -463,9 +431,9 @@ const Products = () => {
               <div className="flex-1 overflow-y-auto overflow-x-hidden custom-scrollbar pr-2 min-h-0">
                 {filteredProducts.length > 0 ? (
                   <>
-                    {/* Mobile: Single Column Vertical Scroll - Only visible on mobile (< 768px) */}
+                    {/* Mobile: 2 Column Grid - Only visible on mobile (< 768px) */}
                     <div className="md:hidden">
-                      <div className="grid grid-cols-1 gap-4 pb-6">
+                      <div className="grid grid-cols-2 gap-2 pb-2">
                         {filteredProducts.map((product, index) => (
                           <ProductCard key={product.product_id} product={product} index={index} isMobile={true} />
                         ))}

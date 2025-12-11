@@ -19,41 +19,101 @@ const Shimmer = () => (
 const ProductDetailSkeleton = () => {
   return (
     <div className="min-h-screen bg-white">
-      <main className="pt-28 pb-0 px-4 sm:px-6 lg:px-10">
-        <div className="container mx-auto px-4">
-          <div className="bg-white rounded-t-3xl border border-border/60 shadow-sm p-6 lg:p-8">
-            <div className="grid lg:grid-cols-2 gap-12">
-              {/* Left - Image Skeleton */}
-              <div className="space-y-6">
-                <div className="relative overflow-hidden bg-gray-200 aspect-square">
-                  <Shimmer />
-                </div>
-                <div className="flex gap-4">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="relative w-20 h-20 bg-gray-200 overflow-hidden">
-                      <Shimmer />
-                    </div>
-                  ))}
-                </div>
-              </div>
+      <nav className="w-full bg-white border-b border-border/60 py-4 sticky top-0 z-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <div className="h-12 w-32 bg-gray-200 rounded animate-shimmer" />
+          </div>
+          <div className="flex items-center gap-6">
+            <div className="h-4 w-12 bg-gray-200 rounded animate-shimmer" />
+            <div className="h-4 w-16 bg-gray-200 rounded animate-shimmer" />
+          </div>
+        </div>
+      </nav>
 
-              {/* Right - Info Skeleton */}
-              <div className="space-y-6">
-                <div className="relative h-8 w-3/4 bg-gray-200 rounded overflow-hidden">
-                  <Shimmer />
+      {/* Breadcrumb Skeleton - Outside the card */}
+      <div className="container mx-auto px-4 sm:px-6 lg:px-10 pt-4 mb-0">
+        <div className="flex items-center gap-2">
+          <div className="h-4 w-12 md:h-4 md:w-14 bg-gray-200 rounded animate-shimmer" />
+          <div className="h-3.5 w-3.5 md:h-4 md:w-4 bg-gray-200 rounded animate-shimmer" />
+          <div className="h-4 w-16 md:h-4 md:w-20 bg-gray-200 rounded animate-shimmer" />
+          <div className="h-3.5 w-3.5 md:h-4 md:w-4 bg-gray-200 rounded animate-shimmer" />
+          <div className="h-4 w-20 md:h-4 md:w-24 bg-gray-200 rounded animate-shimmer" />
+        </div>
+      </div>
+
+      <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-3xl shadow-xl border-2 border-blue-100 py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 bg-white/35 backdrop-blur-md" />
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="container mx-auto px-0 flex-1">
+            <div className="bg-transparent px-0 pt-0 pb-0 mb-0">
+              <div className="grid lg:grid-cols-2 gap-6 md:gap-12 p-4 md:p-6 lg:p-8">
+                {/* Left - Image Skeleton */}
+                <div className="space-y-3 md:space-y-6">
+                  {/* Badge Skeleton */}
+                  <div className="h-6 w-32 bg-gray-200 rounded-full animate-shimmer" />
+                  
+                  {/* Main Image Skeleton */}
+                  <div className="relative overflow-hidden bg-gray-200 aspect-square rounded-lg">
+                    <Shimmer />
+                  </div>
+                  
+                  {/* Thumbnail Skeleton */}
+                  <div className="flex gap-2 md:gap-4 overflow-x-auto pb-2">
+                    {[1, 2, 3, 4].map((i) => (
+                      <div key={i} className="relative flex-shrink-0 w-16 h-16 md:w-20 md:h-20 bg-gray-200 overflow-hidden rounded border-2 border-transparent">
+                        <Shimmer />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div className="relative h-12 w-full bg-gray-200 rounded overflow-hidden">
-                  <Shimmer />
-                </div>
-                <div className="space-y-2">
-                  {[1, 2, 3].map((i) => (
-                    <div key={i} className="relative h-4 w-full bg-gray-200 rounded overflow-hidden">
-                      <Shimmer />
+
+                {/* Right - Info Skeleton */}
+                <div className="space-y-3 md:space-y-6">
+                  {/* Category Badges Skeleton */}
+                  <div className="flex flex-wrap gap-1.5 md:gap-2">
+                    <div className="h-5 w-24 md:h-6 md:w-28 bg-gray-200 rounded-full animate-shimmer" />
+                    <div className="h-5 w-20 md:h-6 md:w-24 bg-gray-200 rounded-full animate-shimmer" />
+                  </div>
+
+                  {/* Product Name Skeleton */}
+                  <div className="relative h-6 md:h-8 lg:h-10 w-3/4 bg-gray-200 rounded animate-shimmer" />
+
+                  {/* Rating Skeleton */}
+                  <div className="flex items-center gap-1 md:gap-2">
+                    <div className="flex gap-0.5 md:gap-1">
+                      {[1, 2, 3, 4, 5].map((i) => (
+                        <div key={i} className="w-3.5 h-3.5 md:w-5 md:h-5 bg-gray-200 rounded animate-shimmer" />
+                      ))}
                     </div>
-                  ))}
-                </div>
-                <div className="relative h-16 w-1/3 bg-gray-200 rounded overflow-hidden">
-                  <Shimmer />
+                    <div className="h-4 w-8 md:h-5 md:w-10 bg-gray-200 rounded animate-shimmer ml-1 md:ml-2" />
+                  </div>
+
+                  {/* Product Title Skeleton */}
+                  <div className="py-2 md:py-4 border-y border-gray-200">
+                    <div className="relative h-4 md:h-6 w-full bg-gray-200 rounded animate-shimmer" />
+                  </div>
+
+                  {/* Description Skeleton */}
+                  <div className="space-y-2">
+                    <div className="relative h-4 md:h-5 w-24 md:w-32 bg-gray-200 rounded animate-shimmer" />
+                    <div className="relative h-3 md:h-4 w-full bg-gray-200 rounded animate-shimmer" />
+                    <div className="relative h-3 md:h-4 w-5/6 bg-gray-200 rounded animate-shimmer" />
+                    <div className="relative h-3 md:h-4 w-4/5 bg-gray-200 rounded animate-shimmer" />
+                  </div>
+
+                  {/* Contact Button Skeleton */}
+                  <div className="relative h-10 md:h-12 w-full bg-gray-200 rounded-lg animate-shimmer" />
+
+                  {/* Trust Badges Skeleton */}
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 md:gap-4 pt-3 md:pt-6 border-t border-gray-200">
+                    {[1, 2, 3, 4].map((i) => (
+                      <div key={i} className="text-center">
+                        <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-gray-200 mx-auto mb-1 md:mb-2 animate-shimmer" />
+                        <div className="h-3 md:h-4 w-16 md:w-20 bg-gray-200 rounded mx-auto animate-shimmer" />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -260,22 +320,23 @@ const ProductDetail = () => {
         </div>
       </nav>
 
-      <main className="pt-0 pb-0 px-4 sm:px-6 lg:px-10">
+      {/* Breadcrumb - Outside the card */}
+      <div className="container mx-auto px-4 sm:px-6 lg:px-10 pt-4 mb-0">
+        <nav className="flex items-center gap-2 text-sm md:text-base text-muted-foreground">
+          <Link to="/" className="hover:text-foreground transition-colors">Home</Link>
+          <ChevronRight className="w-3.5 h-3.5 md:w-4 md:h-4" />
+          <Link to="/products" className="hover:text-foreground transition-colors">Products</Link>
+          <ChevronRight className="w-3.5 h-3.5 md:w-4 md:h-4" />
+          <span className="text-foreground">{product.category_name || product.subcategory}</span>
+        </nav>
+      </div>
 
-        {/* Breadcrumb */}
-        <div className="container mx-auto px-4 mb-8">
-          <nav className="flex items-center gap-2 text-sm text-muted-foreground">
-            <Link to="/" className="hover:text-foreground transition-colors">Home</Link>
-            <ChevronRight className="w-4 h-4" />
-            <Link to="/products" className="hover:text-foreground transition-colors">Products</Link>
-            <ChevronRight className="w-4 h-4" />
-            <span className="text-foreground">{product.category_name || product.subcategory}</span>
-          </nav>
-        </div>
-
-        <div className="container mx-auto px-0">
-          <div className="bg-white border border-border/60 rounded-t-2xl rounded-b-none shadow-sm px-0 pt-0 pb-0 mb-0">
-            <div className="grid lg:grid-cols-2 gap-12 p-6 lg:p-8">
+      <main className="relative flex-1 bg-gradient-to-br from-white via-cyan-100/85 to-sky-200/60 backdrop-blur-sm rounded-t-3xl shadow-xl border-2 border-blue-100 py-6 px-6 lg:px-10 mx-3 lg:mx-6 overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 bg-white/35 backdrop-blur-md" />
+        <div className="relative z-10 flex flex-col h-full">
+          <div className="container mx-auto px-0 flex-1">
+            <div className="bg-transparent px-0 pt-0 pb-0 mb-0">
+            <div className="grid lg:grid-cols-2 gap-6 md:gap-12 p-4 md:p-6 lg:p-8">
             {/* Left - Product Images */}
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
@@ -414,17 +475,17 @@ const ProductDetail = () => {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
-              className="space-y-6"
+              className="space-y-3 md:space-y-6"
             >
               {/* Category Badge */}
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-1.5 md:gap-2">
                 {product.subcategory_name && (
-                  <span className="inline-block text-xs font-semibold text-accent bg-accent/10 px-3 py-1.5 rounded-full">
+                  <span className="inline-block text-[10px] md:text-xs font-semibold text-accent bg-accent/10 px-2 py-1 md:px-3 md:py-1.5 rounded-full">
                     {product.subcategory_name}
                   </span>
                 )}
                 {product.category_name && (
-                  <span className="inline-block text-xs font-semibold text-primary bg-primary/10 px-3 py-1.5 rounded-full">
+                  <span className="inline-block text-[10px] md:text-xs font-semibold text-primary bg-primary/10 px-2 py-1 md:px-3 md:py-1.5 rounded-full">
                     {product.category_name}
                   </span>
                 )}
@@ -432,28 +493,28 @@ const ProductDetail = () => {
 
               {/* Product Name */}
               <div>
-                <h1 className="font-display text-3xl md:text-4xl font-bold leading-tight text-foreground">
+                <h1 className="font-display text-xl md:text-3xl lg:text-4xl font-bold leading-tight text-foreground">
                   {product.product_name}
                 </h1>
               </div>
 
               {/* Rating */}
-              <div className="flex items-center gap-4">
-                <div className="flex items-center gap-1">
+              <div className="flex items-center gap-2 md:gap-4">
+                <div className="flex items-center gap-0.5 md:gap-1">
                   {[...Array(5)].map((_, i) => (
                     <Star 
                       key={i} 
-                      className={`w-5 h-5 ${i < Math.floor(rating) ? "text-amber-400 fill-amber-400" : "text-gray-300"}`} 
+                      className={`w-3.5 h-3.5 md:w-5 md:h-5 ${i < Math.floor(rating) ? "text-amber-400 fill-amber-400" : "text-gray-300"}`} 
                     />
                   ))}
-                  <span className="font-semibold ml-2">{rating}</span>
+                  <span className="font-semibold ml-1 md:ml-2 text-sm md:text-base">{rating}</span>
                 </div>
               </div>
 
               {/* Product Title */}
               {product.product_title && (
-                <div className="py-4 border-y border-border">
-                  <h2 className="text-xl font-semibold text-foreground mb-2">
+                <div className="py-2 md:py-4 border-y border-border">
+                  <h2 className="text-sm md:text-xl font-semibold text-foreground mb-1 md:mb-2">
                     {product.product_title}
                   </h2>
                 </div>
@@ -462,8 +523,8 @@ const ProductDetail = () => {
               {/* Description */}
               {product.product_description && (
                 <div>
-                  <h3 className="font-display font-semibold text-lg mb-3">Description</h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <h3 className="font-display font-semibold text-sm md:text-lg mb-1.5 md:mb-3">Description</h3>
+                  <p className="text-muted-foreground leading-relaxed text-xs md:text-base">
                     {product.product_description}
                   </p>
                 </div>
@@ -474,11 +535,11 @@ const ProductDetail = () => {
               {/* Quantity Selector removed as requested */}
 
               {/* Contact Button */}
-              <div className="pt-4">
+              <div className="pt-2 md:pt-4">
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full border-2 border-cyan-900 text-cyan-900 bg-transparent hover:bg-cyan-50 hover:text-cyan-900"
+                  className="w-full border-2 border-cyan-900 text-cyan-900 bg-transparent hover:bg-cyan-50 hover:text-cyan-900 text-sm md:text-base py-2 md:py-6"
                   onClick={handleBuyNow}
                 >
                   Contact Us
@@ -486,33 +547,34 @@ const ProductDetail = () => {
               </div>
 
               {/* Trust Badges */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-border">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 md:gap-4 pt-3 md:pt-6 border-t border-border">
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-                    <Shield className="w-6 h-6 text-primary" />
+                  <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <Shield className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                   </div>
-                  <p className="text-xs text-muted-foreground font-medium">Quality Warranty</p>
+                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium">Quality Warranty</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-                    <Truck className="w-6 h-6 text-primary" />
+                  <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <Truck className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                   </div>
-                  <p className="text-xs text-muted-foreground font-medium">Fast Delivery</p>
+                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium">Fast Delivery</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-                    <Phone className="w-6 h-6 text-primary" />
+                  <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <Phone className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                   </div>
-                  <p className="text-xs text-muted-foreground font-medium">24/7 Support</p>
+                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium">24/7 Support</p>
                 </div>
                 <div className="text-center">
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-                    <Award className="w-6 h-6 text-primary" />
+                  <div className="w-8 h-8 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-1 md:mb-2">
+                    <Award className="w-4 h-4 md:w-6 md:h-6 text-primary" />
                   </div>
-                  <p className="text-xs text-muted-foreground font-medium">Certified Product</p>
+                  <p className="text-[10px] md:text-xs text-muted-foreground font-medium">Certified Product</p>
                 </div>
               </div>
             </motion.div>
+            </div>
             </div>
           </div>
         </div>
