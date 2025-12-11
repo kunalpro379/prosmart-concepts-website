@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { 
+import {
   Truck, ShieldCheck, ArrowRight, ChevronDown,
   Search, ShoppingCart, User, Tag, MapPin, Phone, Star
 } from "lucide-react";
@@ -19,6 +19,10 @@ import Newsletter from "@/components/home/Newsletter";
 import CustomerReviews from "@/components/home/CustomerReviews";
 import Footer from "@/components/home/Footer";
 import AnimatedCards from "@/components/AnimatedCards";
+
+import Video1 from "@/assets/prosmart_video1.mp4";
+import Video2 from "@/assets/prosmart_video2.mp4";
+import Video3 from "@/assets/prosmart_video3.mp4";
 
 const Index = () => {
   // Array of card data for animated carousel - Only 2 products repeating
@@ -78,10 +82,11 @@ const Index = () => {
   const curatedProducts = [
     {
       id: "prod_0001",
-      name: "Otoscope & Ear Care",
-      subtitle: "Wireless HD visual otoscope with Wi-Fi and 6 LED lights",
+      name: "Mili Pure - Skin Moisture Monitor",
+      subtitle: "HD-E20 MiLi Smart Skin Moisture Detector with Swarovski Crystal design Skin Care Digital Analyzer works on face eyes neck hands APP Bluetooth Switch",
       price: "₹4,999",
       image: "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670288/Medical__Diagnostics/Otoscope__Ear_Care/prod_0088/prod_0088_img1.jpg",
+      video: Video1,
     },
     {
       id: "prod_0093",
@@ -96,6 +101,7 @@ const Index = () => {
       subtitle: "Portable smart wireless LED lamp",
       price: "₹4,999",
       image: "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670202/Lighting__Portable_Lamps/Portable_LED_Lamps/prod_0096/prod_0096_img1.jpg",
+      video: Video3,
     },
   ];
 
@@ -170,34 +176,34 @@ const Index = () => {
   ];
 
   const featuredProducts = [
-    { 
+    {
       id: "oxycare",
-      name: "Oxycare Portable", 
+      name: "Oxycare Portable",
       subtitle: "Oxygen Cylinder",
       badge: "20% Off",
       price: "₹24,999",
       originalPrice: "₹31,249",
       image: productVitamins,
     },
-    { 
+    {
       id: "heed",
-      name: "HEED Device", 
+      name: "HEED Device",
       subtitle: "Emergency Egress",
       badge: null,
       price: "₹1,49,999",
       image: productProtein,
     },
-    { 
+    {
       id: "patient-monitor",
-      name: "Patient Monitor", 
+      name: "Patient Monitor",
       subtitle: "Vital Signs",
       badge: null,
       price: "₹89,999",
       image: productNutrition,
     },
-    { 
+    {
       id: "nebulizer",
-      name: "Smart Nebulizer", 
+      name: "Smart Nebulizer",
       subtitle: "Respiratory Care",
       badge: null,
       price: "₹4,999",
@@ -274,7 +280,7 @@ const Index = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          
+
           <div className="container mx-auto px-3 sm:px-6 lg:px-12 py-4 sm:py-8 lg:py-16 relative z-10 h-full">
             <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-6 sm:gap-8 lg:gap-12 h-full">
               <div className="flex-1 max-w-3xl space-y-3 sm:space-y-4 lg:space-y-6 animate-slide-in-left lg:pt-8">
@@ -291,7 +297,7 @@ const Index = () => {
                   <span className="hidden lg:inline-block"><br /></span>
                   CONCEPT
                 </h1>
-                
+
                 <p className="text-xs sm:text-sm lg:text-base text-white max-w-3xl leading-relaxed">
                   ProSmart Concepts has been a trusted leader in India's business gifting industry for 17 years, consistently launching cutting-edge, high-impact gifting products for corporate clients.
                 </p>
@@ -349,7 +355,7 @@ const Index = () => {
 
               {/* 3D Animated Cards on right - Hidden on mobile to prevent overlap */}
               <div className="flex flex-col lg:flex lg:items-center lg:justify-center lg:flex-1 lg:max-w-2xl animate-slide-in-right">
-                <AnimatedCards 
+                <AnimatedCards
                   cards={heroCards}
                   totalCards={10}
                   visibleCards={6}
@@ -414,30 +420,39 @@ const Index = () => {
               {curatedProducts.map((item, index) => (
                 <div
                   key={item.id}
-                  className="group bg-white border-2 border-black rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-sm hover:shadow-xl transition-all duration-300 animate-fade-in-up"
+                  className="group bg-white border-2 border-black/20 rounded-xl sm:rounded-xl p-1 sm:p-2 shadow-sm hover:shadow-xl transition-all duration-300 animate-fade-in-up"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
-                  <div className="relative bg-gray-50 rounded-xl sm:rounded-2xl overflow-hidden aspect-[4/3] mb-3 sm:mb-4 flex items-center justify-center">
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                    />
+                  <div className="relative bg-gray-50 rounded-xl sm:rounded-xl overflow-hidden aspect-[4/3] flex items-center justify-center">
+                    {item.video ? (
+                      <video src={item.video} autoPlay loop muted className="rounded-lg w-full h-full object-cover" />
+                    ) : (
+                      <img src={item.image} alt={item.name} className="rounded-lg w-full h-full object-cover" />
+                    )}
                   </div>
-                  <h3 className="font-bold text-base sm:text-lg text-gray-900 mb-1">{item.name}</h3>
-                  <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3 line-clamp-2">{item.subtitle}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-[#0f3d1f] font-bold text-sm sm:text-base">{item.price}</span>
-                    <Link
-                      to="/products"
-                      className="text-xs sm:text-sm font-semibold text-cyan-500 hover:text-[#0d3d0d] inline-flex items-center gap-1"
-                    >
-                      Shop now <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
-                    </Link>
+
+                  {/* Bottom content wrapped like category cards */}
+                  <div className="px-1 sm:px-2 pt-2 sm:pt-3">
+                    <h3 className="font-bold text-base sm:text-lg text-gray-900 mb-1">
+                      {item.name}
+                    </h3>
+                    <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3 line-clamp-2">
+                      {item.subtitle}
+                    </p>
+
+                    <div className="flex items-center justify-between">
+                      <Link
+                        to="/products"
+                        className="text-xs w-full flex justify-end items-end sm:text-sm font-semibold text-cyan-500 hover:text-[#0d3d0d] inline-flex items-center gap-1"
+                      >
+                        Shop now <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
+                      </Link>
+                    </div>
                   </div>
                 </div>
               ))}
             </div>
+
           </div>
         </section>
 
@@ -527,7 +542,7 @@ const Index = () => {
               </h2>
               <div className="flex items-center gap-2">
                 <div className="flex gap-0.5 sm:gap-1">
-                  {[1,2,3,4,5].map((i) => (
+                  {[1, 2, 3, 4, 5].map((i) => (
                     <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-cyan-500 text-cyan-500" />
                   ))}
                 </div>
