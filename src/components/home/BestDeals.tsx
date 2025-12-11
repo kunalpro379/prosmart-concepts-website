@@ -76,7 +76,7 @@ const BestDeals = () => {
     if (!categories.length) return [];
 
     const current = categories.find((c) => c.category_name === activeCategory);
-    return current ? current.products.slice(0, 3) : [];
+    return current ? current.products : [];
   }, [activeCategory, categories]);
 
   return (
@@ -119,46 +119,48 @@ const BestDeals = () => {
           </Link>
         </div>
 
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
-          {productsToShow.map((product, index) => (
-            <Link
-              key={product.product_id}
-              to={`/products/${product.product_id}${product.category_id}`}
-              className="group bg-white border-2 border-black rounded-xl sm:rounded-2xl p-3 sm:p-4 hover:shadow-xl transition-all duration-300 animate-fade-in-up"
-              style={{ animationDelay: `${index * 0.05}s` }}
-            >
-              {/* Image Container */}
-              <div className="relative bg-gray-50 rounded-lg sm:rounded-xl p-3 sm:p-4 mb-3 sm:mb-4 aspect-square flex items-center justify-center overflow-hidden">
-                <img 
-                  src={product.image_urls?.[0] ?? "/placeholder.png"}
-                  alt={product.product_name}
-                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                />
-              </div>
-              
-              {/* Rating */}
-              <div className="flex items-center gap-1 mb-1.5 sm:mb-2">
-                <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-                <span className="text-[10px] sm:text-xs font-medium text-gray-600">{product.rating ?? 4.8}</span>
-              </div>
-              
-              {/* Product Info */}
-              <h3 className="font-semibold text-xs sm:text-sm text-gray-900 line-clamp-2 mb-1">
-                {product.product_name}
-              </h3>
-              <p className="text-[10px] sm:text-xs text-gray-500 mb-2 line-clamp-2">
-                {product.product_title}
-              </p>
-              
-              {/* Price */}
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-sm sm:text-base text-cyan-500">
-                  {product.product_price ?? "Price on request"}
-                </span>
-              </div>
-            </Link>
-          ))}
+        {/* Products Horizontal Scroll */}
+        <div className="overflow-x-auto scrollbar-hide -mx-4 sm:-mx-6 lg:-mx-12 px-4 sm:px-6 lg:px-12">
+          <div className="flex gap-3 sm:gap-4 pb-4">
+            {productsToShow.map((product, index) => (
+              <Link
+                key={product.product_id}
+                to={`/products/${product.product_id}${product.category_id}`}
+                className="group bg-white border-2 border-black rounded-lg sm:rounded-xl p-2 sm:p-3 hover:shadow-xl transition-all duration-300 flex-shrink-0 w-40 sm:w-48 md:w-56"
+                style={{ animationDelay: `${index * 0.05}s` }}
+              >
+                {/* Image Container */}
+                <div className="relative bg-gray-50 rounded-lg p-2 sm:p-3 mb-2 sm:mb-3 aspect-square flex items-center justify-center overflow-hidden">
+                  <img 
+                    src={product.image_urls?.[0] ?? "/placeholder.png"}
+                    alt={product.product_name}
+                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                
+                {/* Rating */}
+                <div className="flex items-center gap-1 mb-1">
+                  <Star className="w-2.5 h-2.5 sm:w-3 sm:h-3 fill-yellow-400 text-yellow-400" />
+                  <span className="text-[9px] sm:text-[10px] font-medium text-gray-600">{product.rating ?? 4.8}</span>
+                </div>
+                
+                {/* Product Info */}
+                <h3 className="font-semibold text-[10px] sm:text-xs text-gray-900 line-clamp-2 mb-0.5">
+                  {product.product_name}
+                </h3>
+                <p className="text-[9px] sm:text-[10px] text-gray-500 mb-1.5 line-clamp-2">
+                  {product.product_title}
+                </p>
+                
+                {/* Price */}
+                <div className="flex items-center gap-2">
+                  <span className="font-bold text-xs sm:text-sm text-cyan-500">
+                    {product.product_price ?? "Price on request"}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </section>

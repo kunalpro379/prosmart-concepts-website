@@ -2,19 +2,24 @@ import { motion } from 'framer-motion';
 import ProductCardSkeleton from './ProductCardSkeleton';
 
 const ProductsLoading = () => {
-  // Generate 12 skeleton cards (3 rows x 4 columns)
+  // Generate skeleton cards
   const skeletonCards = Array.from({ length: 12 }, (_, i) => i);
 
   return (
     <>
       {/* Page Header Skeleton */}
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-8 flex-shrink-0">
-        <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="h-12 w-64 bg-slate-200 rounded-lg mb-2 animate-shimmer"
-          />
+        <div className="flex-1">
+          {/* OUR PRODUCTS with Filter Button */}
+          <div className="flex items-center justify-between gap-4 mb-2">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="h-8 w-48 bg-slate-200 rounded-lg animate-shimmer"
+            />
+            {/* Filter Button Skeleton */}
+            <div className="h-8 w-20 bg-slate-200 rounded-lg animate-shimmer" />
+          </div>
           
           {/* Breadcrumb Skeleton */}
           <div className="flex items-center gap-2">
@@ -29,84 +34,43 @@ const ProductsLoading = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="flex flex-wrap gap-2"
+          className="flex flex-nowrap gap-1.5 overflow-x-auto no-scrollbar -mx-2 px-2 sm:flex-wrap sm:overflow-visible sm:mx-0 sm:px-0"
         >
           {/* All Items + 6 main categories = 7 tabs */}
           {[1, 2, 3, 4, 5, 6, 7].map((i) => (
             <div
               key={i}
-              className="h-10 w-32 bg-slate-200 rounded-full animate-shimmer"
+              className="h-7 w-24 bg-slate-200 rounded-full animate-shimmer flex-shrink-0"
             />
           ))}
         </motion.div>
       </div>
 
-      <div className="flex gap-0 flex-1 overflow-hidden">
-        {/* Sidebar Filter Skeleton */}
-        <motion.aside
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          className="w-80 flex-shrink-0 hidden lg:block h-full overflow-hidden"
-        >
-          <div className="bg-card/80 backdrop-blur-sm rounded-2xl shadow-lg border border-border/50 p-6 h-full overflow-hidden">
-            <div className="space-y-6">
-              {/* Filter Header Skeleton */}
-              <div className="h-6 w-20 bg-slate-200 rounded animate-shimmer" />
-              
-              {/* Price Range Skeleton */}
-              <div className="space-y-3">
-                <div className="h-4 w-32 bg-slate-200 rounded animate-shimmer" />
-                <div className="h-2 w-full bg-slate-200 rounded-full animate-shimmer" />
-              </div>
-
-              {/* Category Skeleton */}
-              <div className="space-y-3 pt-4 border-t border-border">
-                <div className="h-4 w-24 bg-slate-200 rounded animate-shimmer" />
-                <div className="h-10 w-full bg-slate-200 rounded-lg animate-shimmer" />
-              </div>
-
-              {/* Subcategory Skeleton */}
-              <div className="space-y-3 pt-4 border-t border-border">
-                <div className="h-4 w-28 bg-slate-200 rounded animate-shimmer" />
-                <div className="space-y-2">
-                  {[1, 2, 3, 4, 5, 6].map((i) => (
-                    <div key={i} className="flex items-center gap-3 p-2.5">
-                      <div className="h-4 w-4 bg-slate-200 rounded animate-shimmer" />
-                      <div className="h-4 flex-1 bg-slate-200 rounded animate-shimmer" />
-                    </div>
-                  ))}
-                </div>
-              </div>
+      {/* Products Section Skeleton */}
+      <div className="flex-1 h-full overflow-hidden flex flex-col min-h-0 relative">
+        {/* Products Grid Skeleton */}
+        <div className="flex-1 overflow-y-auto overflow-x-hidden custom-scrollbar pr-2 min-h-0">
+          {/* Mobile: 2 Column Grid */}
+          <div className="md:hidden">
+            <div className="grid grid-cols-2 gap-2 pb-6">
+              {skeletonCards.map((_, index) => (
+                <ProductCardSkeleton key={index} index={index} isMobile={true} />
+              ))}
             </div>
           </div>
-        </motion.aside>
 
-        {/* Dotted Line Separator */}
-        <div className="hidden lg:flex flex-col items-center px-6">
-          <div className="w-0 h-full border-l-2 border-dashed border-primary/30" />
-        </div>
-
-        {/* Products Section Skeleton */}
-        <div className="flex-1 h-full overflow-hidden flex flex-col">
-          {/* Toolbar Skeleton */}
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="flex items-center justify-between mb-6 flex-shrink-0"
-          >
-            <div className="h-10 w-32 bg-slate-200 rounded-lg animate-shimmer lg:hidden" />
-
-            <div className="flex items-center gap-4 ml-auto">
-              <div className="h-4 w-24 bg-slate-200 rounded animate-shimmer" />
-              <div className="h-10 w-32 bg-slate-200 rounded-lg animate-shimmer" />
-              <div className="hidden sm:flex h-10 w-24 bg-slate-200 rounded-lg animate-shimmer" />
+          {/* Tablet: 2 Column Grid */}
+          <div className="hidden md:block lg:hidden">
+            <div className="grid grid-cols-2 gap-4 sm:gap-5">
+              {skeletonCards.map((_, index) => (
+                <ProductCardSkeleton key={index} index={index} />
+              ))}
             </div>
-          </motion.div>
+          </div>
 
-          {/* Products Grid Skeleton */}
-          <div className="flex-1 overflow-y-auto custom-scrollbar pr-2">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          {/* Desktop: Grid Layout */}
+          <div className="hidden lg:block">
+            <div className="grid grid-cols-3 xl:grid-cols-4 gap-5">
               {skeletonCards.map((_, index) => (
                 <ProductCardSkeleton key={index} index={index} />
               ))}
@@ -119,4 +83,3 @@ const ProductsLoading = () => {
 };
 
 export default ProductsLoading;
-
