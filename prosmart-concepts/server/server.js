@@ -1,18 +1,9 @@
 import express from 'express';
-import cors from 'cors';
 import { connectDB, closeDB } from './db.js';
 import productRoutes from './routes/productRoutes.js';
 
 const app = express();
 const PORT = 5000;
-
-// Only allow your frontend
-const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:3000',
-  'http://localhost:8080',
-  'https://prosmart-concepts.vercel.app'
-];
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
