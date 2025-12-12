@@ -1,29 +1,10 @@
 import express from 'express';
-import cors from 'cors';
 import { connectDB, closeDB } from './db.js';
 import productRoutes from './routes/productRoutes.js';
 
 const app = express();
 const PORT = 5000;
 
-// Only allow your frontend
-const allowedOrigins = [
-  // 'http://localhost:5173',
-  // 'http://localhost:3000',
-  // 'http://localhost:8080',
-  // 'https://prosmart-concepts.vercel.app'
-];
-
-app.use(cors({
-  origin: function(origin, callback) {
-    // allow requests with no origin (like mobile/postman), or in the list
-    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
-}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
