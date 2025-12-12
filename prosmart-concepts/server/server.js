@@ -14,16 +14,6 @@ const allowedOrigins = [
   'https://prosmart-concepts.vercel.app'
 ];
 
-app.use(cors({
-  origin: function(origin, callback) {
-    // allow requests with no origin (like mobile/postman), or in the list
-    if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
-}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
