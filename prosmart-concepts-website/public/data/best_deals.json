@@ -1,0 +1,233 @@
+{
+  "categories": [
+    {
+      "category_name": "Healthcare Essentials",
+      "category_id": "cat_001",
+      "products": [
+        {
+          "product_id": "prod_0001",
+          "product_name": "TEmkin Otoscope with LED",
+          "product_title": "TEmkin Otoscope with LED – Professional Veterinarian Ear Scope with Multi-Size Accessories",
+          "product_description": "A professional-grade diagnostic otoscope featuring bright LED illumination, high-quality optics, and a portable ergonomic design. Suitable for examining the ear canal and eardrum in pets of different sizes. Includes multiple reusable ear specula, magnification lens, and textured grip for precise control. Ideal for healthcare professionals and home users.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670225/Medical_Devices/Diagnostic_Tools/prod_0001/prod_0001_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670226/Medical_Devices/Diagnostic_Tools/prod_0001/prod_0001_img4.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670228/Medical_Devices/Diagnostic_Tools/prod_0001/prod_0001_img5.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0002",
+          "product_name": "JSL-T501 Fetal Doppler",
+          "product_title": "JSL-T501 Handheld Fetal Doppler with Digital Display",
+          "product_description": "A handheld fetal heartbeat detection device using Doppler ultrasound. Includes speaker, digital BPM display, and probe for pregnancy monitoring.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670237/Medical_Devices/Fetal_Dopplers/prod_0002/prod_0002_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670243/Medical_Devices/Fetal_Dopplers/prod_0002/prod_0002_img3.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670247/Medical_Devices/Fetal_Dopplers/prod_0002/prod_0002_img5.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0003",
+          "product_name": "Sureline Foetal Doppler",
+          "product_title": "Sureline Portable Foetal Doppler Heartbeat Monitor",
+          "product_description": "A portable fetal doppler designed to detect and monitor a baby’s heartbeat from home. Features LCD display, 3.0MHz ultrasound frequency, and built-in speakers.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670251/Medical_Devices/Fetal_Monitors/prod_0003/prod_0003_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670252/Medical_Devices/Fetal_Monitors/prod_0003/prod_0003_img2.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670253/Medical_Devices/Fetal_Monitors/prod_0003/prod_0003_img3.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    },
+    {
+      "category_name": "Personal Care",
+      "category_id": "cat_002",
+      "products": [
+        {
+          "product_id": "prod_0008",
+          "product_name": "Makeup Mirror with LED Light",
+          "product_title": "Foldable LED Makeup Mirror with Touch Control & Adjustable Lighting",
+          "product_description": "A slim, foldable LED makeup mirror featuring stepless dimming and three light color modes. Designed for travel, home use, and quick touch-ups. Offers bright, clear illumination with touch controls for customized lighting.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670034/Beauty__Personal_Care/Makeup_Tools/prod_0008/prod_0008_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670037/Beauty__Personal_Care/Makeup_Tools/prod_0008/prod_0008_img2.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0011",
+          "product_name": "Hair Dye Stick - for Gray Hair Coverage - 2-in-1",
+          "product_title": "2-in-1 Gray Hair Coverage Dye Stick with Scalp Applicator",
+          "product_description": "A portable 2-in-1 hair dye stick and scalp applicator designed for precise application on hair roots. Features rolling ball teeth for even distribution and improved absorption. Suitable for applying oils, serums, and hair treatments directly to the scalp.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670010/Beauty__Personal_Care/Hair_Care/prod_0011/prod_0011_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670012/Beauty__Personal_Care/Hair_Care/prod_0011/prod_0011_img3.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670013/Beauty__Personal_Care/Hair_Care/prod_0011/prod_0011_img4.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670015/Beauty__Personal_Care/Hair_Care/prod_0011/prod_0011_img5.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0012",
+          "product_name": "5-in-1 derma roller kit",
+          "product_title": "5-in-1 Microneedling Derma Roller Kit with Interchangeable Titanium Heads",
+          "product_description": "A 5-in-1 derma roller kit with multiple interchangeable microneedle heads made of titanium. Helps improve collagen production, reduce wrinkles, acne scars, and stretch marks. Enhances serum absorption and suitable for both facial and body care.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670016/Beauty__Personal_Care/Hair_Care/prod_0012/prod_0012_img1.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    },
+    {
+      "category_name": "Smart Home",
+      "category_id": "cat_003",
+      "products": [
+        {
+          "product_id": "prod_0020",
+          "product_name": "Joseph Joseph Caddy Tower Slimline Sink Tidy",
+          "product_title": "Joseph Joseph Caddy Tower Slimline Sink Tidy Organizer",
+          "product_description": "A slim, compact sink organizer with sections for brushes, sponges, and washing-up liquid. Includes a drainage spout and fully dismantlable design for easy cleaning. Ideal for maintaining a neat and hygienic kitchen sink area.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670151/Home__Kitchen/Kitchen_Organizers/prod_0020/prod_0020_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670152/Home__Kitchen/Kitchen_Organizers/prod_0020/prod_0020_img2.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0023",
+          "product_name": "USB-powered duck-shaped humidifier",
+          "product_title": "USB Duck-Shaped Portable Humidifier with Super Atomization",
+          "product_description": "A compact duck-shaped USB humidifier featuring super atomization, ideal for desks, cars, and small spaces. Provides portable moisture control with a cute and functional design.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670128/Home_Appliances/Humidifiers/prod_0023/prod_0023_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670129/Home_Appliances/Humidifiers/prod_0023/prod_0023_img2.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670130/Home_Appliances/Humidifiers/prod_0023/prod_0023_img3.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0025",
+          "product_name": "Vintage Style Antique Brass Fish Shaped Lock with 2 Keys",
+          "product_title": "Handcrafted Antique Brass Fish-Shaped Padlock with 2 Keys",
+          "product_description": "A traditional handcrafted brass fish-shaped padlock made using Indian sand-casting techniques. Functional and decorative, includes 2 keys and a unique trick-lock opening mechanism.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670147/Home__Decor/Locks__Security/prod_0025/prod_0025_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670149/Home__Decor/Locks__Security/prod_0025/prod_0025_img2.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    },
+    {
+      "category_name": "Gadgets & Accessories",
+      "category_id": "cat_007",
+      "products": [
+        {
+          "product_id": "prod_0037",
+          "product_name": "Smartslide Temperature Bottle",
+          "product_title": "Smartslide LED Temperature Display Vacuum Bottle",
+          "product_description": "A stainless steel vacuum insulated bottle with LED touch screen temperature display. Features 304-grade food-safe inner wall and long-lasting LED sensor.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670391/Sports__Outdoors/Temperature_Bottles/prod_0037/prod_0037_img1.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0038",
+          "product_name": "Hydrogen Rich Water Cup",
+          "product_title": "Hydrogen Rich Water Generator Bottle – SPE/PEM Electrolysis",
+          "product_description": "A hydrogen water generator bottle using SPE/PEM electrolysis technology. Typically made from borosilicate glass with leak-proof design and 420ml capacity. USB rechargeable.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670377/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670378/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img10.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670379/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img13.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670380/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img4.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670381/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img5.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670389/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img7.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670390/Sports__Outdoors/Hydrogen_Bottles/prod_0038/prod_0038_img8.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0039",
+          "product_name": "foldable cyantooth keyboard",
+          "product_title": "Portable Foldable cyantooth Keyboard with Touchpad",
+          "product_description": "A compact tri-fold cyantooth keyboard with a built-in multi-touch touchpad. Compatible with phones, tablets, and laptops. Rechargeable, lightweight, and ideal for travel.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670090/Electronics/Computer_Accessories/prod_0039/prod_0039_img1.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    },
+    {
+      "category_name": "Tools & Hardware",
+      "category_id": "cat_009",
+      "products": [
+        {
+          "product_id": "prod_0040",
+          "product_name": "Bosch AquaSurf 250 Patio Cleaner attachment",
+          "product_title": "Bosch AquaSurf 250 Patio Cleaner Attachment",
+          "product_description": "The Bosch AquaSurf 250 is a pressure washer attachment designed for cleaning patios and driveways. It features a 250 mm wide cleaning head, pivoting joint for maneuverability, and brush skirt splash guard. Compatible with various Bosch EasyAquatak, UniversalAquatak, and AQT washer models.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670408/Tools__Hardware/Pressure_Washer_Attachments/prod_0040/prod_0040_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670409/Tools__Hardware/Pressure_Washer_Attachments/prod_0040/prod_0040_img2.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670410/Tools__Hardware/Pressure_Washer_Attachments/prod_0040/prod_0040_img4.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0041",
+          "product_name": "Dispo Van Single-Use Hypodermic Syringe",
+          "product_title": "Dispo Van Disposable Hypodermic Syringe – Ribbon Pack",
+          "product_description": "A single-use hypodermic syringe manufactured by Dispo Van, designed for safe medical injections and fluid withdrawal. Comes in ribbon pack packaging.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670407/Tools__Hardware/Medical_Tools/prod_0041/prod_0041_img1.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0042",
+          "product_name": "TH-8016 LED Lighted Magnifying Glass",
+          "product_title": "TH-8016 Portable LED Magnifying Glass with Scale (10X–20X)",
+          "product_description": "A handheld magnifying glass featuring 10X, 15X, and 20X magnification with integrated LED and UV lighting. Includes a measurement scale, ideal for jewelry inspection, banknote checking, and detailed analysis.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670406/Tools__Hardware/Magnifying_Tools/prod_0042/prod_0042_img1.jpg",
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670406/Tools__Hardware/Magnifying_Tools/prod_0042/prod_0042_img2.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    },
+    {
+      "category_name": "Kids & Crafts",
+      "category_id": "cat_010",
+      "products": [
+        {
+          "product_id": "prod_0043",
+          "product_name": "Explore Science Human Anatomy Bone Assembly Kit",
+          "product_title": "Explore Science 3D Human Anatomy Bone Assembly STEAM Kit",
+          "product_description": "A STEAM educational kit designed to teach children about the human skeleton through a 3D bone assembly model. Ideal for early biology learning, anatomy exploration, and interactive science activities.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670411/Toys__Education/STEM_Kits/prod_0043/prod_0043_img1.jpg"
+          ],
+          "product_price": null
+        },
+        {
+          "product_id": "prod_0053",
+          "product_name": "Skin Anatomy Frame",
+          "product_title": "Human Skin Anatomy Study Frame",
+          "product_description": "A printed skin anatomy chart frame showing epidermis, dermis, and subcutaneous layers. Suitable for educational, medical, or classroom use.",
+          "image_urls": [
+            "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670089/Educational_Aids/Charts__Models/prod_0053/prod_0053_img1.jpg"
+          ],
+          "product_price": null
+        }
+      ]
+    }
+  ]
+}

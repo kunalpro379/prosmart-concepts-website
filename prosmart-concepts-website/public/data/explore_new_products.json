@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "image_urls": [
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670264/Medical_Equipment/Nebulizers/prod_0047/prod_0047_img1.jpg",
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670267/Medical_Equipment/Nebulizers/prod_0047/prod_0047_img2.jpg"
+      ],
+      "product_id": "prod_0047",
+      "product_name": "JSL-W302 Mesh Nebulizer",
+      "product_title": "JSL-W302 Portable Mesh Nebulizer",
+      "product_description": "A compact mesh nebulizer featuring one-touch operation, quiet function, USB or battery power, and a detachable 10ml chamber for respiratory treatments.",
+      "category_name": "Respiratory Care",
+      "category_id": "cat_013"
+    },
+    {
+      "image_urls": [
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670324/Medical__Safety_Devices/Needle_Disposal_Devices/prod_0094/prod_0094_img1.jpg",
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670328/Medical__Safety_Devices/Needle_Disposal_Devices/prod_0094/prod_0094_img2.jpg"
+      ],
+      "product_id": "prod_0094",
+      "product_name": "Needle & Hub Cutter",
+      "product_title": "Manual Needle & Hub Cutter for Safe Disposal",
+      "product_description": "A manual device for safely cutting used needles and syringe hubs in one action to prevent reuse and reduce needlestick injuries in emergencies and clinical settings.",
+      "category_name": "Emergency Equipment",
+      "category_id": "cat_035"
+    },
+    {
+      "image_urls": [
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670097/Fitness__Medical_Equipment/Strength_Measuring_Devices/prod_0044/prod_0044_img1.jpg",
+        "https://res.cloudinary.com/dstmt1w5p/image/upload/v1764670099/Fitness__Medical_Equipment/Strength_Measuring_Devices/prod_0044/prod_0044_img2.jpg"
+      ],
+      "product_id": "prod_0044",
+      "product_name": "Camry EH101 Electronic Hand Dynamometer",
+      "product_title": "Camry EH101 Electronic Hand Dynamometer Grip Strength Meter",
+      "product_description": "A digital hand dynamometer with high-precision strain gauge sensor, adjustable handle, and 8 memory profiles to monitor patient grip strength with LCD feedback.",
+      "category_name": "Patient Monitors",
+      "category_id": "cat_011"
+    }
+  ]
+}

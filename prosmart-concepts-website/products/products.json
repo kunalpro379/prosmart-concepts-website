@@ -1,0 +1,1519 @@
+{
+    "Personal Care": {
+      "LED Wax Candles Set": {
+        "product_id": "pc_001",
+        "product_name": "LED Wax Candles",
+        "product_title": "Multi-Colour Real Wax LED Candle Set with Remote",
+        "product_description": "A premium set of real-wax LED candles featuring 12 adjustable colours controlled with an 18-button remote. Perfect for home décor, ambience lighting, and festive setups. Safe, flameless design with ON/OFF remote function makes it ideal for bedrooms, events, restaurants, and gifting.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/27900129336/in/photostream/lightbox/"
+        ],
+        "price": null
+      },
+      "3-in-1 Smart Light Pen": {
+        "product_id": "pc_002",
+        "product_name": "Smart Light Pen",
+        "product_title": "3-in-1 Stylus Pen with LED Tip Light",
+        "product_description": "A multifunction 3-in-1 pen combining a smooth writing ballpoint, touchscreen stylus, and bright LED tip light that allows writing even in complete darkness. Durable metal body with long battery life, ideal for professionals, students, and night-time use.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/29051986916/",
+          "https://www.flickr.com/photos/prosmart_concepts/29051986916/in/photostream/lightbox/"
+        ],
+        "price": null
+      }
+    },
+  
+    "Smart Home": {
+      "Mosquito & Flying Insect Killer": {
+        "product_id": "sh_001",
+        "product_name": "Mosquito Killer",
+        "product_title": "Super Mosquito & Flying Insect Killer – PROTEKT Brand",
+        "product_description": "A high-efficiency electric mosquito and flying insect killer designed for homes, offices, and commercial spaces. Uses UV light to attract insects and an electric grid for instant elimination. Durable metal body with powerful performance for long-term pest control.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23796899346/in/photostream/lightbox/",
+          "https://www.flickr.com/photos/prosmart_concepts/23796899346/in/photostream/"
+        ],
+        "price": null
+      },
+      "SmartSlide Paper Shredder": {
+        "product_id": "sh_002",
+        "product_name": "Paper Shredder",
+        "product_title": "SmartSlide USB Desktop Paper Shredder",
+        "product_description": "A compact desktop paper shredder powered via USB or optional batteries. Ideal for destroying confidential papers, prescriptions, and small documents. Lightweight and portable with transparent shred bin for easy disposal.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23455072359/in/photostream/",
+          "https://www.flickr.com/photos/prosmart_concepts/23455072359/in/photostream/lightbox/"
+        ],
+        "price": null
+      }
+    },
+  
+    "Kids & Crafts": {
+      "Pinless Stapler": {
+        "product_id": "kc_001",
+        "product_name": "Pinless Stapler",
+        "product_title": "Eco-Friendly Stapler Without Pins",
+        "product_description": "A smart pinless stapler that binds papers without the use of metal pins. Safe for kids, eco-friendly, and ideal for schools, offices, and craft activities. Creates secure paper locks by cutting and folding paper.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23714610972/",
+          "https://www.flickr.com/photos/prosmart_concepts/23714610972/in/photostream/lightbox/"
+        ],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Portable Garment Steamer": {
+        "product_id": "pc_003",
+        "product_name": "Garment Steamer",
+        "product_title": "Portable Travel Garment Steamer",
+        "product_description": "A lightweight and portable garment steamer ideal for travel and home use. Quickly removes wrinkles from shirts, suits, and delicate fabrics. Features fast heating, ergonomic design, and easy water refill system.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23823009835/in/photostream/lightbox/",
+          "https://www.flickr.com/photos/prosmart_concepts/23823009835/"
+        ],
+        "price": null
+      }
+    },
+  
+    "Gadgets & Accessories": {
+      "Portable Reclining Seat": {
+        "product_id": "ga_001",
+        "product_name": "Reclining Seat",
+        "product_title": "Portable Reclining Travel Seat with Adjustable Positions",
+        "product_description": "A foldable, lightweight reclining seat with high-density foam cushioning. Perfect for beach trips, picnics, gaming, and outdoor events. Features adjustable backrest positions, durable polyester cover, and easy carrying strap.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23823016185/in/photostream/lightbox/",
+          "https://www.flickr.com/photos/prosmart_concepts/23823016185/"
+        ],
+        "price": null
+      },
+      "Smart Light Tip Pens": {
+        "product_id": "ga_002",
+        "product_name": "LED Tip Pen",
+        "product_title": "LED Smart Tip Pen for Writing in Darkness",
+        "product_description": "A premium LED light pen designed for low-light and no-light environments. Ensures clear writing with a focused LED tip. Ideal for travelers, students, medical professionals, and night-shift workers.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23194890854/in/photostream/lightbox/",
+          "https://www.flickr.com/photos/prosmart_concepts/23194890854/"
+        ],
+        "price": null
+      },
+      "Super Blower Fan": {
+        "product_id": "ga_003",
+        "product_name": "Super Blower",
+        "product_title": "SmartSlide Super Blower – 2-Speed Personal Desktop Fan",
+        "product_description": "A compact 2-speed personal blower fan with quiet operation and adjustable air direction. Perfect for desktops, study areas, kids’ rooms, and travel. Consumes low power and delivers strong airflow.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23823016985/in/photostream/",
+          "https://www.flickr.com/photos/prosmart_concepts/23823016985/in/photostream/lightbox/"
+        ],
+        "price": null
+      }
+    },
+  
+    "Tools & Hardware": {
+      "Snap’n Grip Universal Wrench": {
+        "product_id": "th_001",
+        "product_name": "Universal Wrench",
+        "product_title": "Snap’n Grip Heavy Duty Universal Adjustable Wrench Set",
+        "product_description": "A versatile all-purpose wrench set designed to fit nuts and bolts from 9mm to 32mm. Automatically adjusts size and shape, ideal for plumbing, mechanical, automotive, and household use. Features ergonomic grip and durable steel construction.",
+        "product_images": [
+          "https://www.flickr.com/photos/prosmart_concepts/23194891614/in/photostream/",
+          "https://www.flickr.com/photos/prosmart_concepts/23194891614/in/photostream/lightbox/"
+        ],
+        "price": null
+      }
+    }
+  }
+
+  {
+    "Personal Care": {
+      "LED Wax Candles Set": {
+        "product_id": "pc_001",
+        "product_name": "LED Wax Candles",
+        "product_title": "LED Real Wax Candle Set with Remote Control",
+        "product_description": "A decorative LED candle set made from real wax featuring soft ambient light suitable for home décor, gifting, and festive lighting.",
+        "product_info": "The LED Wax Candle Set includes three premium real-wax candles designed to mimic the warm glow of traditional flames without any heat or fire risk. The product packaging highlights that the candles support multiple colour modes operated through a remote control, allowing the user to adjust colours and lighting styles based on mood or occasion. The candles appear to have a smooth, natural wax texture and are intended for indoor ambience, relaxation, and home decoration.",
+        "product_images": [],
+        "price": null
+      },
+      "Smart Light Pen": {
+        "product_id": "pc_002",
+        "product_name": "Smart Light Pen",
+        "product_title": "3-in-1 Smart LED Light Pen with Stylus",
+        "product_description": "A multifunction writing pen featuring an LED light tip and touch stylus for versatile daily use.",
+        "product_info": "The Smart Light Pen features a built-in LED light at the writing tip, enabling clear writing in dark or low-light environments. The body of the pen shows a sleek metallic finish and includes a soft stylus tip for touchscreen devices. The packaging emphasizes the product’s practicality for students, professionals, and individuals who need a reliable writing tool for night-time use. Its compact design and illuminated nib make it ideal for travel, bedside jotting, and emergency note-taking.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Smart Home": {
+      "Mosquito Killer": {
+        "product_id": "sh_001",
+        "product_name": "Mosquito Killer",
+        "product_title": "Electric Mosquito & Flying Insect Killer",
+        "product_description": "A high-performance electric mosquito killer designed to trap and eliminate flying insects indoors.",
+        "product_info": "The Mosquito Killer unit has a metal grid façade and an internal UV light attraction system visible through the protective housing. The branding on the product body highlights its purpose as a professional-grade insect exterminator suitable for home or workplace use. The structure appears durable, with a rectangular vented casing designed to maximize airflow and insect capture efficiency. The product is intended to offer reliable and chemical-free mosquito control.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "SmartSlide Paper Shredder": {
+        "product_id": "sh_002",
+        "product_name": "Paper Shredder",
+        "product_title": "SmartSlide Compact USB Paper Shredder",
+        "product_description": "A portable paper shredder ideal for securely destroying personal or office documents.",
+        "product_info": "The SmartSlide Paper Shredder packaging shows a slim, compact shredder designed for small sheets and daily office use. The box highlights its USB-powered capability, making it convenient for laptop or desktop users. Its transparent waste bin design allows easy monitoring of shredded contents, and the product is positioned as a lightweight, portable solution for confidential paper disposal.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Kids & Crafts": {
+      "Pinless Stapler": {
+        "product_id": "kc_001",
+        "product_name": "Pinless Stapler",
+        "product_title": "Eco-Friendly Stapler Without Pins",
+        "product_description": "A safe and eco-friendly pinless stapler suitable for students, offices, and craft projects.",
+        "product_info": "The Pinless Stapler shown in the image uses a mechanical folding method instead of metal pins, allowing users to bind papers without traditional staples. The product body includes a diagram demonstrating how the mechanism punches and interlocks paper layers to create a secure binding. It is marketed as safe for children, environmentally friendly, and practical for everyday paperwork and school use.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Portable Steam Press": {
+        "product_id": "pc_003",
+        "product_name": "Portable Steam Press",
+        "product_title": "Handheld Portable Garment Steamer",
+        "product_description": "A compact garment steamer built for quick wrinkle removal at home or during travel.",
+        "product_info": "The Portable Steam Press image shows a handheld unit with a streamlined body and detachable water reservoir. The packaging visual highlights features like rapid heating and strong steam output suitable for shirts, sarees, coats, and delicate fabrics. The ergonomic handle and lightweight frame make the device ideal for on-the-go ironing and quick touch-ups, especially for travelers and professionals.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Gadgets & Accessories": {
+      "Reclining Seat": {
+        "product_id": "ga_001",
+        "product_name": "Reclining Seat",
+        "product_title": "Portable Adjustable Reclining Floor Seat",
+        "product_description": "A foldable reclining seat offering cushioned back support for indoor or outdoor use.",
+        "product_info": "The Reclining Seat features a soft padded base and an adjustable backrest frame that can lock into multiple angles. The product image shows a durable fabric exterior with reinforced edging, indicating long-term use. This seat is designed for picnics, gaming, floor seating, sporting events, or meditation. Its foldable construction makes it highly portable and easy to store.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Smart Light Tip Pens": {
+        "product_id": "ga_002",
+        "product_name": "LED Tip Pens",
+        "product_title": "Smart LED Tip Writing Pens",
+        "product_description": "LED-illuminated writing pens suitable for note-taking in dark or low-light conditions.",
+        "product_info": "The image displays multiple Smart Light Tip Pens packaged together, each equipped with a bright LED emitter at the tip. The pens feature a metallic clip-on design and a rubber grip for comfortable writing. The packaging highlights the usefulness of the illuminated tip for hospital workers, drivers, students, and night-shift users. The pen design is sleek and intended for functional as well as promotional use.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Super Blower": {
+        "product_id": "ga_003",
+        "product_name": "Super Blower",
+        "product_title": "2-Speed Compact Blower Fan",
+        "product_description": "A compact blower fan designed for personal cooling and desktop use.",
+        "product_info": "The Super Blower shown in the box features a compact motor housing with a front air outlet and a side speed selector switch offering two airflow levels. The packaging highlights its portable structure, energy-efficient operation, and suitability for small rooms, study desks, and travel. Its sturdy design and ergonomic handle promote ease of use and carrying convenience.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Tools & Hardware": {
+      "Super Wrench": {
+        "product_id": "th_001",
+        "product_name": "Universal Wrench",
+        "product_title": "Snap-N-Grip Adjustable Universal Wrench",
+        "product_description": "A universal wrench tool designed to fit various nut and bolt sizes.",
+        "product_info": "The Super Wrench packaging showcases a two-piece wrench set capable of adjusting automatically to different bolt sizes. The images emphasize its multi-purpose use for plumbing, automotive repair, and household maintenance. The rubberized handles and steel jaws are highlighted as durable and grip-efficient, making it a versatile addition to any toolkit.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Healthcare Essentials": {
+      "RadiSafe Mobile Radiation Protector": {
+        "product_id": "prod_0140",
+        "product_name": "RadiSafe Protector",
+        "product_title": "RadiSafe Mobile Anti-Radiation Protection Chip",
+        "product_description": "A shield designed to reduce exposure to harmful mobile phone radiation and heat.",
+        "product_info": "The RadiSafe mobile radiation protector is presented as a scientifically proven solution to reduce EMR radiation emitted by smartphones. The product packaging highlights that it can be used on any mobile phone and significantly reduces both radiation and heating effects. Visuals in the image show thermal comparison scans illustrating heat reduction when the RadiSafe chip is applied. It is branded professionally and advertised as tested and verified with supporting certifications, making it suitable for users seeking additional protection against mobile radiation.",
+        "product_images": [],
+        "price": null
+      },
+      
+      "UV Sterilization Pen": {
+        "product_id": "prod_0141",
+        "product_name": "UV Sterilizer Pen",
+        "product_title": "Portable UV Water Purifier Sterilization Pen",
+        "product_description": "A handheld ultraviolet purification pen that disinfects and purifies drinking water anywhere.",
+        "product_info": "The UV Sterilization Pen uses ultraviolet light technology to clean water by destroying bacteria, viruses, and protozoan cysts such as giardia and cryptosporidia. The promotional visuals explain that this technology is the same used in municipal water purification systems across the world. The product claims to purify up to 50 liters with alkaline batteries, or up to 150 liters with lithium batteries. The long lamp life of approximately 8,000 cycles makes it a durable and reliable choice for travelers, hikers, and emergency situations. The images show practical use cases including dipping the pen into a glass of water and storing it in a protective sleeve.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "BedBoost Mattress Support": {
+        "product_id": "prod_0142",
+        "product_name": "BedBoost Support",
+        "product_title": "BedBoost Custom Mattress Support System",
+        "product_description": "An inflatable mattress support that restores sagging beds and improves sleep comfort.",
+        "product_info": "BedBoost is shown as an inflatable support system designed to instantly lift and stabilize sagging mattresses. Images depict before-and-after scenarios demonstrating improved back alignment and enhanced comfort. The product is positioned as useful for preventing back pain by adjusting mattress curvature and can also be placed under the legs for elevation. The promotional text highlights quick setup, universal mattress compatibility, and its benefits for restful sleep. It appears as a practical solution for extending mattress life and improving sleep posture.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Moisture Pen Skin Analyzer": {
+        "product_id": "prod_0143",
+        "product_name": "Moisture Pen",
+        "product_title": "Digital Skin Moisture & Smoothness Tester",
+        "product_description": "A handheld skin moisture analyzer designed to check hydration and smoothness.",
+        "product_info": "The Moisture Pen shown in the image is a compact skincare diagnostic tool used to measure moisture levels and smoothness through skin conduction technology. The product includes an LED display, on/off controls, and a touch sensor head for reading hydration values. Promotional text indicates that it is widely used by individuals for personal skincare evaluation. The imagery demonstrates its application on the face and outlines basic features such as restart button, measurement display, and protective cap.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Smart Home": {
+      "Cap Humidifier": {
+        "product_id": "prod_0144",
+        "product_name": "Cap Humidifier",
+        "product_title": "SmartSlide Portable Cap-Style Air Humidifier",
+        "product_description": "A compact USB-powered humidifier that fits onto bottles to add moisture to indoor air.",
+        "product_info": "The Cap Humidifier features a simple cap-shaped design that converts regular bottles into functional humidifiers. According to the product sheet, it provides relief from dry air and helps reduce particulate matter. The compact size allows it to fit easily into bags, making it ideal for office desks, bedrooms, and travel. The included components—USB cable, absorbent cotton stick, and humidifier cap—highlight ease of use and portability. Visuals show multiple color options and demonstrate the mist output in various environments.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Gadgets & Accessories": {
+      "Smart Key Finder": {
+        "product_id": "prod_0145",
+        "product_name": "Smart Key Finder",
+        "product_title": "PROTEKT Bluetooth Smart Key Finder & Anti-Lost Alarm",
+        "product_description": "A Bluetooth-enabled anti-loss tracker designed to help locate keys, pets, bags, and personal items.",
+        "product_info": "The Smart Key Finder uses Bluetooth connectivity to track lost items through a mobile app featuring radar-like detection. The image shows multiple color options, highlighting compatibility with smartphones for remote tracking and alert functions. The device can attach to keychains, pet collars, or bags, with additional features like selfie shutter control and anti-loss notifications. The compact size and simple single-button design make it practical for everyday use.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Multi Key Finder Set": {
+        "product_id": "prod_0146",
+        "product_name": "Multi Key Finder",
+        "product_title": "Wireless RF Multi Key Finder with Remote and LED Flashlight",
+        "product_description": "A multi-tag wireless key finder system that locates lost items using a color-coded remote control.",
+        "product_info": "The Multi Key Finder set includes a central remote base with four color-coded receivers. Pressing a button on the remote triggers beeping and flashing lights on the corresponding tag, aiding quick location of lost keys, wallets, or household items. The images illustrate LED flashlights built into the remote and tags, making it especially useful in dark environments. The system offers a transmitting range of 30–40 meters and provides a simple, user-friendly method for managing multiple items.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Bluetooth Audio Receiver": {
+        "product_id": "prod_0147",
+        "product_name": "Bluetooth Audio Receiver",
+        "product_title": "Wireless Bluetooth Audio Receiver for Speakers",
+        "product_description": "A USB-powered Bluetooth receiver that converts wired speakers into wireless audio systems.",
+        "product_info": "The Bluetooth Audio Receiver allows any traditional speaker system with a 3.5mm jack to play audio wirelessly from Bluetooth-enabled devices. Promotional text in the image emphasizes easy plug-and-play installation and universal compatibility with phones, tablets, laptops, and gaming devices. The compact USB form factor and included audio cable make it a versatile accessory for upgrading older speakers and home sound systems.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "SmartSlide Hoverboard": {
+        "product_id": "prod_0148",
+        "product_name": "Hoverboard",
+        "product_title": "SmartSlide Electric Hoverboard with Bluetooth Speakers",
+        "product_description": "A self-balancing electric hoverboard designed for personal transport and recreation.",
+        "product_info": "The SmartSlide Hoverboard features dual footpads, an electric self-balancing system, and built-in Bluetooth speakers for music playback while riding. The promotional graphics state that it can travel up to 15 km on a single charge and requires no license or registration. High-quality battery configuration and a carry bag are included as shown in the images. Additional visuals demonstrate leaning controls for forward and backward movement and examples of outdoor usage.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "SmartWatch": {
+        "product_id": "prod_0149",
+        "product_name": "SmartWatch",
+        "product_title": "SmartSlide Bluetooth Touchscreen SmartWatch",
+        "product_description": "A multi-function Bluetooth smartwatch with touch display and fitness utilities.",
+        "product_info": "The SmartWatch shown includes a 1.48-inch capacitive touchscreen with Bluetooth 3.0+EDR connectivity. Its feature list includes calling, music playback, remote camera control, calculator, alarm clock, message reminders, pedometer, barometer, thermometer, altimeter, and anti-slide reminder. The image highlights multiple color options and a sleek wrist-worn design. Accessory list includes a USB cable and user guide, reinforcing ease of setup and everyday usability.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Gadget Cleaner Spray": {
+        "product_id": "prod_0150",
+        "product_name": "Gadget Cleaner",
+        "product_title": "SmartSlide Gadget Cleaner With Built-In Spray",
+        "product_description": "A portable cleaning tool with integrated spray for maintaining gadget screens.",
+        "product_info": "The Gadget Cleaner features a slim rectangular design with a built-in spray mechanism. The product packaging highlights its suitability for cleaning smartphone screens, tablets, laptops, and other electronic devices. Display stands in the image showcase multiple color variants and retail-ready presentation. The product is marketed as simple and effective, offering an all-in-one cleaning solution for everyday digital devices.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "SmartSlide Bluetooth SmartWatch": {
+        "product_id": "prod_0151",
+        "product_name": "Bluetooth SmartWatch",
+        "product_title": "SmartSlide Touchscreen Bluetooth SmartWatch",
+        "product_description": "A multifunction Bluetooth smartwatch with touchscreen display and daily-use smart features.",
+        "product_info": "The SmartSlide Bluetooth SmartWatch features a 1.48-inch capacitive touchscreen TFT LCD designed for on-wrist convenience. The specifications shown in the image highlight Bluetooth V3.0+EDR connectivity and support for A2DP, HFP, and HS protocols. This smartwatch offers essential functionalities such as answering and dialing calls, alarm clock, music playback, calculator, message reminders, push notifications, call alerts, remote camera operation, pedometer, thermometer, barometer, altimeter, and anti-slide reminder. It supports multiple international languages including English, French, Spanish, Portuguese, Italian, German, Russian, Arabic, Turkish, Korean, and more. With a 230mAh lithium battery, the watch provides up to 3 hours talk time, 6 hours music play time, and around 160 hours standby time. The package includes the smartwatch, a USB cable, and a user guide, making it a complete and ready-to-use smart wearable.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Moisture Pen Skin Analyzer": {
+        "product_id": "prod_0152",
+        "product_name": "Moisture Pen",
+        "product_title": "Digital Skin Moisture & Hydration Tester",
+        "product_description": "A simple and effective moisture analyzing pen that measures skin hydration levels instantly.",
+        "product_info": "The Moisture Pen is a compact digital device used to monitor skin smoothness and hydration levels through skin conduction measurement. The product visuals highlight a sleek pen-style design with an LED display screen, on/off button, restart button, and a skin-touch sensor head. It is shown being used on facial skin to evaluate moisture content, making it ideal for skincare routines and hydration tracking. The image text emphasizes that the device is simple, easy to use, and widely adopted by individuals worldwide for personal skincare evaluation. The protective cap ensures hygiene, while the straightforward button layout allows quick measurements anytime. Its ergonomic and portable build makes it suitable for daily skincare assessment.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "Electric Powered Stapler": {
+        "product_id": "prod_0153",
+        "product_name": "Electric Stapler",
+        "product_title": "Electric Powered 14-Sheet Stapler",
+        "product_description": "An automatic electric stapler designed for hassle-free paper stapling without manual effort.",
+        "product_info": "This Electric Powered Stapler features a transparent retro-style body showcasing its internal mechanism. The product sheet indicates that it can staple up to 14 sheets of 20lb paper using No. 26/6 staples, or 12 sheets using No. 24/6 staples. Simply inserting papers into the front slot triggers instant automatic stapling without pressing any button. It runs on four AA batteries or an AC/DC adaptor, making it suitable for office, school, and home use. The unit is available in multiple attractive colors and has a compact size of 155 × 90 × 101 mm.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Digital Video Memo Recorder": {
+        "product_id": "prod_0154",
+        "product_name": "Video Memo Recorder",
+        "product_title": "Digital Video Memo Recorder for Fridges and Workspaces",
+        "product_description": "A compact device for recording and playing short video reminders with a single touch.",
+        "product_info": "The Digital Video Memo Recorder enables users to leave 30-second live video messages for family and colleagues. The product visuals show a magnetic back for easy placement on refrigerators or metal surfaces. Features include multilingual audio/video recording, simple one-button operation for recording and playback, and a compact display screen for viewing recorded messages. The device is promoted as a modern replacement for sticky notes, allowing schedules, reminders, and personal messages to be shared conveniently.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Diary With Built-in Calculator": {
+        "product_id": "prod_0155",
+        "product_name": "Calculator Diary",
+        "product_title": "Notebook with Built-In Printed Calculator",
+        "product_description": "A stylish diary that features a functional calculator integrated into the front cover.",
+        "product_info": "This unique diary includes a fully functional printed calculator embedded in the front cover, allowing quick calculations while writing notes. The product images show multiple color variations with spiral binding for easy page turning. The calculator includes standard number keys, memory functions, and basic operations. The combination of notebook and calculator makes it ideal for students, office professionals, and executives who want convenience and practicality in one compact design.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Friction Pen Magic Erase Pen": {
+        "product_id": "prod_0156",
+        "product_name": "Friction Erase Pen",
+        "product_title": "Magic Erase Thermal Sensitive Ink Pen",
+        "product_description": "A thermal-sensitive pen that allows ink to be erased using heat or the built-in eraser.",
+        "product_info": "The Friction Pen uses special thermo-sensitive ink that disappears when heat is applied. According to the product sheet, users can erase writing by rubbing with the built-in friction eraser or by gently heating the paper. The pen has a tip size of 0.7 mm and a click mechanism. The visuals show different color options, making it suitable for students, teachers, and professionals who require neat, erasable writing for notes, diagrams, or corrections.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Magic Wireless NFC Speaker": {
+        "product_id": "prod_0157",
+        "product_name": "Magic Wireless Speaker",
+        "product_title": "Magic NFC Wireless Speaker with Induction Play",
+        "product_description": "A wireless induction speaker that plays music from your phone without Bluetooth pairing.",
+        "product_info": "The Magic Wireless Speaker uses NFC-style induction technology to amplify audio without Bluetooth or cables. Users simply place their smartphone on the speaker surface to begin playback. The device features a rechargeable long-duration battery and is shown in multiple color options. The simple design and effortless operation make it ideal for quick music sharing at home or outdoors without needing wireless pairing or setup.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Multi-Utility Tool Kit": {
+        "product_id": "prod_0158",
+        "product_name": "Car Tool Kit",
+        "product_title": "24-Piece Tyre-Shaped Multi Utility Tool Kit",
+        "product_description": "A compact 24-piece tool kit shaped like a car tyre, suitable for home and vehicle use.",
+        "product_info": "This multi-utility tool kit contains 24 precision tools including pliers, screwdrivers, sockets, a measuring tape, a bit set, and a knife. Packaged in a compact tyre-shaped case, it offers easy storage and portability. The product visuals highlight neatly arranged tool slots and a durable outer casing. It is designed for basic repairs, DIY work, and emergency auto maintenance, making it a practical tool set for homes and vehicles.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Universal 8x Zoom Mobile Lens": {
+        "product_id": "prod_0159",
+        "product_name": "8x Zoom Lens",
+        "product_title": "Universal 8x Zoom Telescope Lens for Smartphones",
+        "product_description": "A clip-on telescope lens that provides 8x zoom capability for smartphone cameras.",
+        "product_info": "The Universal 8x Zoom Lens attaches to smartphones using an adjustable clip mount. The product sheet emphasizes compatibility with iPhone, Samsung, Sony Xperia, HTC, and other smartphone models. The lens improves distant photography by providing clear 8x magnification. The package includes the telescope lens, mounting clip, and a storage box. Images show usage demonstrations and close-up shots of the lens construction.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Smart Home": {
+      "Natural Breeze Clip Fan": {
+        "product_id": "prod_0160",
+        "product_name": "Clip Fan",
+        "product_title": "100% Natural Breeze Clip-On Fan",
+        "product_description": "A clip-on fan designed to deliver natural-feel airflow with flexible positioning.",
+        "product_info": "The Natural Breeze Clip Fan features a unique soft-blade design that produces a gentle, natural-feeling breeze. It can be clipped onto desks, bed frames, strollers, or any suitable surface. The product visuals highlight various blade styles and color options. The fan operates safely without hard plastic blades, making it suitable for children’s rooms and personal spaces. With adjustable height and rotation positions, it offers versatile cooling for home or office environments.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Travel Kit": {
+        "product_id": "prod_0161",
+        "product_name": "Travel Kit",
+        "product_title": "High Quality Travel Kit with Essential Accessories",
+        "product_description": "A complete travel kit containing essential comfort and hygiene accessories for journeys.",
+        "product_info": "The Travel Kit shown includes essential travel accessories such as socks, eye mask, ear plugs, a smart carry pouch, a resettable combination lock, and a neck pillow. The visuals highlight soft materials and multiple color options for comfort. Designed for frequent travelers, the kit provides convenience and preparedness for long journeys, flights, or road trips by keeping all essentials organized in one compact package.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "Bluetooth Stereo Headphones": {
+        "product_id": "prod_0162",
+        "product_name": "Bluetooth Headphones",
+        "product_title": "Bluetooth Stereo Headphones with FM & MP3 Player",
+        "product_description": "Foldable wireless stereo headphones featuring Bluetooth playback, FM radio, and MP3 support.",
+        "product_info": "These Bluetooth Stereo Headphones offer wireless music playback from any Bluetooth-enabled device, along with support for FM radio and MP3 playback via an SD or TF card. The foldable design makes them compact and travel-friendly. The visuals display cushioned ear pads and an adjustable headband for comfortable long-term use. Control buttons on the earcup allow easy switching between modes and managing playback. Designed for high-quality audio and everyday convenience, the headphones come in attractive color combinations and retail-ready packaging.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Super Mini Bluetooth Earbud": {
+        "product_id": "prod_0163",
+        "product_name": "Mini Bluetooth Earbud",
+        "product_title": "Super Mini Bluetooth In-Ear Headset",
+        "product_description": "A compact wireless Bluetooth earbud designed for calls and music playback on the go.",
+        "product_info": "The Super Mini Bluetooth Earbud features a single-button lightweight design with a prominent Bluetooth logo on the face. It is compatible with phones, laptops, MP3 players, and other Bluetooth audio devices. The visuals highlight ergonomic comfort for extended wear and hands-free calling. The earbud supports taking calls, playing music, and simple pairing. Its extremely compact size and glossy finish make it ideal for drivers, commuters, and daily communication needs.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Mini Wireless Keyboard": {
+        "product_id": "prod_0164",
+        "product_name": "Wireless Keyboard",
+        "product_title": "Mini Wireless Keyboard with Built-In Touchpad",
+        "product_description": "A compact wireless keyboard featuring a full QWERTY layout and integrated touchpad.",
+        "product_info": "The Mini Wireless Keyboard (model NS903) includes a full QWERTY keyboard layout with dedicated media keys, a built-in touchpad, and scroll buttons. Its ergonomic grip allows single-handed or two-handed operation. The product packaging shows support for smart TVs, computers, and media devices. The lightweight build, wireless connectivity, and responsive touchpad make it ideal for presentations, entertainment systems, and remote control use.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Shoe Shine Kit": {
+        "product_id": "prod_0165",
+        "product_name": "Shoe Shine Kit",
+        "product_title": "Premium Shoe Shine Kit in Wooden & Travel Cases",
+        "product_description": "A premium shoe care kit featuring multiple brushes, polish, and accessories for footwear maintenance.",
+        "product_info": "The Shoe Shine Kit includes a high-quality wooden collector’s box containing brushes, polish tins, cloths, and a shoe horn. Additional compact travel-friendly cases are also shown, offering portable versions of the kit. The visuals highlight organized compartments and durable craftsmanship suitable for professional shoe care. Ideal for travelers, executives, and grooming-conscious individuals, the kit delivers complete footwear maintenance in elegant packaging.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Smart Home": {
+      "Mini Coffee Maker": {
+        "product_id": "prod_0166",
+        "product_name": "Mini Coffee Maker",
+        "product_title": "Super Cool Mini Coffee Maker with Porcelain Cup",
+        "product_description": "A compact electric coffee maker with included porcelain cup and removable filter basket.",
+        "product_info": "The Mini Coffee Maker has a 150ml capacity and includes a porcelain cup for brewing. The product images show a removable filter basket, on/off lighted switch, permanent filter, and washable filter holder. It operates on 230V / 50Hz with a 450W power rating. The compact design and fast brewing functionality make it ideal for office desks, small kitchens, and travel use. The unit dimensions are listed as 112 × 135 × 197 mm with GS/CE/EMC/ROHS approval.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Healthcare Essentials": {
+      "Mosquito Repellent Bands": {
+        "product_id": "prod_0167",
+        "product_name": "Mosquito Bands",
+        "product_title": "Citronella Mosquito Repellent Bands & Patches",
+        "product_description": "Citronella-based repellent bands and patches designed to provide long-lasting mosquito protection.",
+        "product_info": "These Mosquito Repellent Bands and patches use 100% vegetable-based citronella oil to provide protection without DEET chemicals. The refillable pellets offer up to 15 days of continuous protection. The product visuals show multiple outdoor usage scenarios, including family activities, sports, camping, and travel. Safe for children, the patches can be applied to clothing, bags, or nearby surfaces, offering convenient and natural mosquito defense.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Tools & Hardware": {
+      "LED Work Light Powerbank": {
+        "product_id": "prod_0168",
+        "product_name": "LED Work Light",
+        "product_title": "LED Work Light with Built-In 4000/5000mAh Powerbank",
+        "product_description": "A high-brightness LED work light that doubles as a portable power bank.",
+        "product_info": "The LED Work Light includes a tall vertical light bar featuring multiple LEDs, suitable for desks, metallic surfaces, bicycles, and reading environments. It comes with a charging stand and can operate as a standalone lamp or magnetic work light. The built-in 4000/5000mAh powerbank allows users to charge mobile devices, making it a multifunctional utility tool for workspaces, outdoor use, and emergency lighting.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "Programmable USB Message Fan": {
+        "product_id": "prod_0169",
+        "product_name": "USB Message Fan",
+        "product_title": "Programmable USB Message Fan with Custom LED Text",
+        "product_description": "A USB-powered fan that displays programmable LED messages while cooling.",
+        "product_info": "The Programmable USB Message Fan allows users to create personalized LED messages in multiple languages that appear while the fan spins. The product includes a USB connector, flexible metal neck for adjustable positioning, an on/off switch, and a software CD for customizing the display text. It plugs directly into laptops, power banks, or USB adapters. The visuals show bright blue LED patterns forming letters and symbols, making it ideal for desk use, gifting, and fun promotional displays.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Bluetooth Photo Snapper": {
+        "product_id": "prod_0170",
+        "product_name": "Photo Snapper",
+        "product_title": "Bluetooth Remote Shutter for Mobile Photography",
+        "product_description": "A compact wireless shutter button for capturing photos and videos from a distance.",
+        "product_info": "The Bluetooth Photo Snapper enables remote clicking of photos and videos from up to 35 feet away. The visuals show compatibility with both Android and iOS devices without the need for software installation. The compact remote includes dedicated buttons for each operating system and features a built-in lithium battery for long-distance use. With its lightweight design and keychain-friendly shape, it is ideal for selfies, group photos, and tripod photography.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Super Audio Bluetooth Headset": {
+        "product_id": "prod_0171",
+        "product_name": "Bluetooth Neckband Headset",
+        "product_title": "Super Audio Bluetooth Neckband Headset",
+        "product_description": "A rugged and portable Bluetooth headset designed for music and hands-free calls.",
+        "product_info": "The Super Audio Bluetooth Headset features a sporty neckband-style ring with circular ear modules for comfortable wear during movement. The images highlight multiple color options and built-in control buttons for music and call management. It connects to phones, laptops, MP3 players, and other Bluetooth audio sources. The rugged design makes it suitable for travel, workouts, and outdoor use, offering reliable audio performance with a wear-anywhere experience.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "USB Mini Aroma Kit": {
+        "product_id": "prod_0172",
+        "product_name": "USB Aroma Kit",
+        "product_title": "USB Mini Aroma Diffuser Kit",
+        "product_description": "A compact aroma diffuser that plugs into any USB port to release pleasant fragrance.",
+        "product_info": "The USB Mini Aroma Kit includes a slim USB stick-style diffuser available in colorful pastel designs. It connects to any USB port on laptops, computers, chargers, or power banks. The pack includes replaceable aroma pads and a refill dropper. The visuals emphasize its compactness and portability, allowing users to enjoy their favorite aroma in offices, homes, or cars. The floral-themed packaging reinforces its soothing and refreshing purpose.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Portable Video Memo Recorder": {
+        "product_id": "prod_0173",
+        "product_name": "Video Memo Recorder",
+        "product_title": "Digital Video Memo Recorder for Fridges and Workspaces",
+        "product_description": "A compact video-note device that records and plays back short reminders.",
+        "product_info": "The Digital Video Memo Recorder allows users to capture 30-second video reminders with a single button. The product attaches magnetically to refrigerators or metallic surfaces. The visuals display a clear color screen, front camera, and built-in speaker for playback. Promoted as a modern replacement for sticky notes, it helps families and professionals leave multilingual video messages easily and conveniently.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Healthcare Essentials": {
+      "UV Mobile Sanitizer": {
+        "product_id": "prod_0174",
+        "product_name": "Mobile Sanitizer",
+        "product_title": "UV Mobile Phone Sanitizer",
+        "product_description": "A UV-based mobile sanitizer designed to eliminate germs from phones and small items.",
+        "product_info": "The UV Mobile Sanitizer features a cylindrical chamber that emits disinfecting UV light to sanitize mobile phones and accessories. The visuals show multiple color options and a simple drop-in design. The device includes a removable tray and battery compartment. The UV Cell Phone Sanitizer packaging emphasizes sterilization benefits for hygiene-conscious users, offering convenience for homes, offices, and medical environments.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Mosquito Repellent Bands Variant": {
+        "product_id": "prod_0175",
+        "product_name": "Mosquito Bands Variant",
+        "product_title": "Citronella Mosquito Repellent Bands (Variant Packaging)",
+        "product_description": "A natural citronella oil-based mosquito repellent band set with long-lasting pellets.",
+        "product_info": "This variant of Mosquito Repellent Bands features bright yellow refillable pellets and playful packaging targeted toward children and families. The bands use pure citronella oil and are DEET-free, making them safe for kids. The refill capsules last up to 15 days. The visuals show usage during family activities, sports, travel, and outdoor adventures. The fun design and easy application make it an appealing mosquito protection option.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Oral Hygiene Dental Kit": {
+        "product_id": "prod_0176",
+        "product_name": "Dental Kit",
+        "product_title": "Complete Oral Hygiene Dental Kit",
+        "product_description": "A multi-tool dental kit containing toothbrush, floss, mirror, and gum-care accessories.",
+        "product_info": "The Oral Hygiene Dental Kit includes a full-head toothbrush with rounded bristles, a combined floss and toothpick tool, an interdental brush, a plaque stain eraser, dental floss, and a dental mirror. The product visuals highlight its capability to clean hard-to-reach mouth areas and remove plaque efficiently. The kit promotes improved oral hygiene, stain removal, and better gum health. Suitable for home users, travelers, and daily dental care needs.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Personal Care": {
+      "Nail Clipper with Magnifier": {
+        "product_id": "prod_0177",
+        "product_name": "Nail Clipper",
+        "product_title": "Nail Clipper with Built-In Magnifier",
+        "product_description": "A grooming nail clipper equipped with a magnifying lens for precision cutting.",
+        "product_info": "This Nail Clipper integrates a circular magnifying lens to enhance visibility while trimming nails. The visuals show sturdy metal jaws and ergonomic grip for safer trimming, especially useful for seniors or individuals with reduced eyesight. The magnifier helps ensure accurate cutting and reduces the risk of injury. Packaged as a grooming-essential gadget, it is practical for home use and travel.",
+        "product_images": [],
+        "price": null
+      }
+    },
+  
+    "Tools & Hardware": {
+      "Portable Gas Stove": {
+        "product_id": "prod_0178",
+        "product_name": "Portable Gas Stove",
+        "product_title": "Ultra Portable Clean Gas Stove",
+        "product_description": "A portable gas stove designed for cooking, heating, or picnics.",
+        "product_info": "The Portable Gas Stove features a compact design with a built-in ignition system, allowing users to cook or heat food anywhere. The visuals show sturdy metal burners enclosed in red and yellow casings. It is marketed as a simple-to-operate device that can be carried in a car or handbag, making it ideal for camping, picnics, and emergency use.",
+        "product_images": [],
+        "price": null
+      },
+  
+      "Portable Gas Burner": {
+        "product_id": "prod_0179",
+        "product_name": "Gas Burner",
+        "product_title": "Portable Gas Torch Burner",
+        "product_description": "A high-heat portable gas burner suitable for outdoor, hobby, and utility use.",
+        "product_info": "The Portable Gas Burner includes a metal nozzle torch compatible with gas canisters shown in the visuals. It is designed for heating instruments, test tubes, or metallic objects. The product highlights portability, safety, and multipurpose functionality. The burner is suitable for labs, workshops, camping, and DIY uses that require controlled high-heat output.",
+        "product_images": [],
+        "price": null
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "Laser Presenters": {
+        "Laser Presenter With Memory Slot": {
+          "product_id": "prod_0180",
+          "product_name": "Laser Presenter Memory Slot",
+          "product_title": "Wireless Laser Presenter with Memory Card Slot",
+          "product_description": "A multifunction wireless laser presenter featuring page control buttons and a built-in memory card slot for seamless presentations.",
+          "product_info": "This wireless laser presenter combines a sleek ergonomic design with powerful presentation functions. The visuals show models with integrated navigation buttons that allow page up/down control, slide transitions, and laser pointing. The device includes a USB receiver for plug-and-play use, and certain models feature a built-in memory card slot for storing presentation files directly on the presenter. The package includes a presenter, USB receiver, and storage box, making it suitable for teachers, trainers, office professionals, and corporate environments.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    },
+  
+    "Healthcare Essentials": {
+      "Mosquito Protection": {
+        "Mosquito Bands & Patches Variant 2": {
+          "product_id": "prod_0181",
+          "product_name": "Mosquito Bands Variant",
+          "product_title": "Citronella Mosquito Repellent Bands & Patches (Bright Pack Variant)",
+          "product_description": "A child-safe mosquito repellent set featuring colorful patches and refill pellets powered by natural citronella oil.",
+          "product_info": "This mosquito repellent kit includes bright yellow citronella patches and refill pellets designed for long-lasting outdoor protection. The visuals show use cases in family care, sports, travel, and outdoor settings. The patches adhere easily to clothing and accessories, offering DEET-free safety for children. Each refill lasts up to 15 days, providing continuous mosquito defense with playful, kid-friendly packaging and vibrant colors.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    },
+  
+    "Smart Home": {
+      "Desktop Accessories": {
+        "Handshake Mobile Holder & Pen Stand": {
+          "product_id": "prod_0182",
+          "product_name": "Handshake Pen Stand",
+          "product_title": "Desktop Mobile Holder with Handshake Sculpture & Pen Stand",
+          "product_description": "A stylish desktop organizer featuring a symbolic handshake sculpture along with mobile holder and pen stand compartments.",
+          "product_info": "The desktop organizer features a handshake sculpture representing friendship and cooperation, mounted on a clear or white base. Adjacent to it, the set includes a multifunctional stand with slots for holding mobile phones, pens, cards, and small stationery. The visuals show metal and acrylic components, giving the product a premium office décor look ideal for desks, receptions, and gifting.",
+          "product_images": [],
+          "price": null
+        }
+      },
+  
+      "Clocks": {
+        "Brass Table Clock Paperweight": {
+          "product_id": "prod_0183",
+          "product_name": "Brass Table Clock",
+          "product_title": "Vintage Brass Table Clock Cum Paperweight",
+          "product_description": "A high-quality brass table clock designed in a vintage pocket-watch style that doubles as a paperweight.",
+          "product_info": "This brass table clock features a classic pocket-watch design with large readable numerals and a metallic finish. The visuals show variants including a compass-style rear design and a sturdy brass build that functions as a decorative paperweight. Its nostalgic aesthetic makes it ideal for office desks, home décor, and corporate gifting.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Chrome Table Clock Paperweight": {
+          "product_id": "prod_0184",
+          "product_name": "Chrome Table Clock",
+          "product_title": "High Visibility Chrome Table Clock Cum Paperweight",
+          "product_description": "A polished chrome-finish table clock offering both decorative appeal and practical paperweight functionality.",
+          "product_info": "The chrome table clock presents a premium reflective finish with large black numerals for maximum visibility. The visuals show a compass-style back plate and a weighted base that serves as a paperweight. Its modern metallic design blends elegantly into office or home environments, providing both style and usefulness.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    },
+  
+    "Gadgets & Accessories": {
+      "Audio Gear": {
+        "ProSound Studio Headphones": {
+          "product_id": "prod_0185",
+          "product_name": "ProSound Headphones",
+          "product_title": "High Quality Studio-Grade Personal Headphones",
+          "product_description": "Premium studio-grade headphones for mobile phones, digital players, and high-quality audio listening.",
+          "product_info": "The ProSound headphones come in multiple vibrant colors including red, black, blue, white, and green. They feature cushioned ear pads and an adjustable headband for extended comfort. The visuals show durable construction suitable for everyday listening, studio work, online classes, gaming, and travel. The packaging highlights powerful sound performance and attractive modern aesthetics.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Hands-Free Bluetooth Mobile Kit": {
+          "product_id": "prod_0186",
+          "product_name": "Bluetooth Car Kit",
+          "product_title": "Hands-Free Multipoint Bluetooth Mobile Kit",
+          "product_description": "A car and office hands-free Bluetooth speakerphone offering long standby time and clear voice.",
+          "product_info": "This Bluetooth multipoint speakerphone enables hands-free calling in cars, offices, and cabins. The images show a compact rectangular speaker unit with volume buttons, call controls, and a clip for mounting. Included accessories are a USB charging cable, car charger, user manual, and rechargeable battery. The product packaging highlights 16 hours talk time and 45 days standby, making it reliable for commuters and professionals.",
+          "product_images": [],
+          "price": null
+        }
+      },
+  
+      "Stationery Tech": {
+        "Diary with Built-in Calculator": {
+          "product_id": "prod_0187",
+          "product_name": "Calculator Diary",
+          "product_title": "Notebook with Built-In Calculator",
+          "product_description": "A spiral diary integrated with a printed calculator on the front cover for convenience.",
+          "product_info": "This unique diary features a calculator built directly into the front cover, allowing quick calculations while taking notes. The visuals show multiple color options including kraft, black, and white covers with clear numeric keypads. The integrated solar or battery-powered LCD display enhances usability for students, professionals, and office workers. It is ideal for meetings, accounting tasks, and daily planning.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    }
+  }
+  {
+    "Gadgets & Accessories": {
+      "Waterproof Cases": {
+        "Universal Waterproof Mobile Pouch": {
+          "product_id": "prod_0188",
+          "product_name": "Waterproof Mobile Pouch",
+          "product_title": "Universal Waterproof Pouch for Mobiles & Electronics",
+          "product_description": "A fully waterproof protective pouch for mobiles, cameras, and tablets.",
+          "product_info": "The waterproof mobile pouch shown in the images is designed to completely seal and protect electronic devices from water during monsoon or outdoor activities. The transparent front allows full touchscreen usability while the top locking clips keep the pouch airtight. The visuals highlight complete submersion protection, lightweight foldable construction, and a lanyard for easy carrying. Suitable for smartphones, small tablets, and cameras, it is ideal for travel, beaches, boating, and rainy season usage.",
+          "product_images": [],
+          "price": null
+        }
+      },
+  
+      "Stylus & LED Pens": {
+        "LED Touch Stylus Pen": {
+          "product_id": "prod_0189",
+          "product_name": "LED Stylus Pen",
+          "product_title": "LED Flashlight Touch Pen 3-in-1",
+          "product_description": "A multifunction pen combining stylus, LED light, and writing pen.",
+          "product_info": "This 3-in-1 LED Touch Pen features a smooth writing tip, a rubber stylus for touchscreen devices, and a bright white LED light at the top for illumination. The images show multiple metal-finish colour variants including black, silver, green, blue, and red. Its premium build and compact design make it perfect for professionals, students, and mobile users needing a multifunction tool for low-light environments.",
+          "product_images": [],
+          "price": null
+        }
+      },
+  
+      "Home & Outdoor Utility": {
+        "Foldable Indoor Outdoor Rug": {
+          "product_id": "prod_0190",
+          "product_name": "Foldable Outdoor Rug",
+          "product_title": "Multipurpose Indoor/Outdoor Foldable Rug with Built-In Carry Bag",
+          "product_description": "A high-quality multipurpose foldable rug that converts into a compact carry bag.",
+          "product_info": "The foldable rug shown features vibrant patterns and durable PVC-backed fabric suitable for outdoor picnics, indoor use, beaches, gardens, and camping. The rug folds neatly into a compact carry pouch with built-in handles, making it extremely easy to transport. The visuals show multiple designs and sizes, along with the bag-style folded form. Lightweight, washable, and long-lasting, it is designed for daily utility and outdoor recreation.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Collapsible Beverage & Water Dispenser": {
+          "product_id": "prod_0191",
+          "product_name": "Collapsible Beverage Dispenser",
+          "product_title": "Collapsible Water & Beverage Dispenser with Holder",
+          "product_description": "A portable collapsible beverage dispenser made from FDA-approved material.",
+          "product_info": "This collapsible beverage dispenser expands into a full water/beverage container designed for picnics, parties, and home use. The images show bright colours and a sturdy base holder to support the container. The collapsible accordion-style body makes it compact for storage and travel. Made from lightweight, durable, FDA-approved materials, it is suitable for dispensing juice, water, and cold beverages conveniently.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Silicone Folding Bucket": {
+          "product_id": "prod_0192",
+          "product_name": "Silicone Folding Bucket",
+          "product_title": "Durable Silicone Folding Bucket",
+          "product_description": "A flexible, bacteria-resistant foldable bucket made from durable silicone.",
+          "product_info": "The silicone folding bucket folds flat for easy storage and springs open into a full-size utility bucket. The visuals show multiple colours including pink, blue, yellow, and green. The material is highlighted as highly durable, flexible, and bacteria-resistant, making it suitable for home cleaning, travel, camping, gardening, and daily chores.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Hot & Cold Thermal Bag": {
+          "product_id": "prod_0193",
+          "product_name": "Thermal Bag",
+          "product_title": "Reusable Hot & Cold Thermal Storage Bag",
+          "product_description": "A reusable insulated bag that keeps items hot or cold for hours.",
+          "product_info": "The Hot & Cold Thermal Bag shown features insulated reflective material designed to keep foods and beverages hot, cold, or frozen for up to three hours. Lightweight, washable, and reusable, it is ideal for travel, picnics, grocery storage, ice cream, frozen food, and outdoor events. The visuals showcase strong handles, large storage capacity, and premium printed branding on the thermal exterior.",
+          "product_images": [],
+          "price": null
+        },
+  
+        "Wooden Sand Timer Paperweight": {
+          "product_id": "prod_0194",
+          "product_name": "Wooden Sand Timer",
+          "product_title": "Classic Wooden Sand Timer Cum Paperweight",
+          "product_description": "A decorative sand timer made with wooden framing that doubles as a paperweight.",
+          "product_info": "This sand timer set includes multiple elegant designs with wooden frames and glass hourglasses filled with fine sand. The product serves as both a functional timer and a stylish paperweight. The visuals show rectangular and cylindrical wooden frames, some with brass detailing and engraved tops. It is ideal for desk décor, gifting, study tables, and collectors who appreciate vintage aesthetics.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    },
+  
+    "Healthcare Essentials": {
+      "Health Monitoring": {
+        "Diabetic Risk Calculator": {
+          "product_id": "prod_0195",
+          "product_name": "Diabetes Risk Calculator",
+          "product_title": "Digital Diabetic Risk Assessment Calculator",
+          "product_description": "A digital tool to assess personal diabetes risk using preset measurement parameters.",
+          "product_info": "The Diabetes Risk Calculator shown includes a full alphanumeric keypad and a large LCD display labelled for diabetic risk, glucose level, and glucose conversion. The interface provides options for new patient entry, gender selection, mg/dl–mmol/l conversion, and review functions. With its clear display and structured controls, the device helps users generate personal diabetic risk assessments easily.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    },
+  
+    "Personal Care": {
+      "Electric Grooming": {
+        "Handy Electric Razor": {
+          "product_id": "prod_0196",
+          "product_name": "Handy Electric Razor",
+          "product_title": "Rechargeable Handy Electric Razor",
+          "product_description": "A compact rechargeable electric razor ideal for daily grooming and travel.",
+          "product_info": "This electric razor features a dual-rotary blade system housed in a stylish, ergonomic body available in blue, red, and orange variants. The images show side grips for secure handling and LED indicators for charging status. Designed for efficient shaving with long battery life, the product serves as a reliable grooming companion for home or travel use.",
+          "product_images": [],
+          "price": null
+        }
+      }
+    }
+  }
+  [
+    {
+      "id": "retro_portable_speaker_system",
+      "title": "Retro Wooden Portable Speaker System",
+      "main_category": "Electronics",
+      "image_urls": [],
+      "product_info": "A stylish retro-inspired wooden portable speaker system designed with dual front-facing speakers and a classic central control panel. The unit features a compact boxy design that blends vintage looks with modern utility. It includes a display screen, integrated buttons, and supports SD/MMC card playback, functioning as a radio, alarm clock, and speaker system. The wooden exterior adds a premium aesthetic while ensuring sturdy durability. Ideal for home, desk, or casual entertainment use, offering both nostalgic appeal and everyday practicality."
+    },
+    {
+      "id": "micro_polyfiber_quilt",
+      "title": "Micro Polyfiber Quilt",
+      "main_category": "Lifestyle",
+      "image_urls": [],
+      "product_info": "A soft and lightweight micro-polyfiber quilt designed with colorful printed patchwork patterns, visible in the packaging and on the styled bed display. The quilt appears fluffy, smooth, and comfortable, suitable for home bedroom décor. Its packed form shows multiple elegant fabric patterns, and the assembled bed view highlights its cozy appeal with matching pillows and coordinated pastel colors. Ideal for everyday home use, providing warmth, comfort, and aesthetic charm."
+    },
+    {
+      "id": "heart_artery_blockage_model",
+      "title": "Heart Artery Blockage Educational Model",
+      "main_category": "Healthcare",
+      "image_urls": [],
+      "product_info": "An educational demonstration model illustrating the progression of artery blockage. The model features transparent tubular channels with varying levels of red fluid and simulated plaque buildup, clearly showing differences between healthy and blocked arteries. A printed diagram on the back visually explains heart disease stages. Compact, lightweight, and easy to display, this tool is ideal for medical demonstrations, patient education, and academic use, effectively showcasing blood flow restriction in a simple physical format."
+    },
+    {
+      "id": "paper_foldable_speakers",
+      "title": "Foldable Paper Speakers",
+      "main_category": "Electronics",
+      "image_urls": [],
+      "product_info": "A unique pair of foldable paper-based speakers designed with a creative flat-pack structure. The speakers assemble from cardboard-like cutouts into functional cube or angled shapes, each containing a central speaker driver. Lightweight and eco-friendly, these speakers are shown connected via cable, offering a simple plug-and-play audio experience. The compact foldable form makes them ideal for travel, gifting, or novelty desk use, blending playful design with practical utility."
+    },
+    {
+      "id": "high_power_5600mah_power_bank",
+      "title": "High Power 5600mAh Power Bank",
+      "main_category": "Electronics",
+      "image_urls": [],
+      "product_info": "A compact and vibrant 5600mAh power bank available in bright fluorescent colors like orange, pink, and green. The device features an LED light indicator on the front and is shown emitting a strong built-in LED beam with SOS capability. Packaged variants reinforce its portable and handy design. Ideal for quick on-the-go charging, emergency lighting, or travel use, combining style with dependable functionality."
+    },
+    {
+      "id": "uv_detector_bracelet",
+      "title": "UV Detector Bracelet",
+      "main_category": "Lifestyle",
+      "image_urls": [],
+      "product_info": "A colorful wearable UV detector bracelet created to monitor exposure to ultraviolet rays. The bracelet features a central circular indicator area surrounded by color zones that shift based on UV intensity. Available in multiple playful designs and colors, it offers a convenient and visual method to understand sun exposure levels. Lightweight and adjustable, it is ideal for outdoor activities, travel, and daily sun safety awareness."
+    },
+    {
+      "id": "video_brochures_cards",
+      "title": "Video Brochures / Video Cards",
+      "main_category": "Corporate Gifts",
+      "image_urls": [],
+      "product_info": "A premium range of video brochures and video cards that incorporate small built-in LCD screens for interactive multimedia presentations. The images show various formats including booklet-style brochures, fold-out cards, and branded templates with integrated displays and control buttons. These modern presentation tools are designed for marketing, corporate communication, product showcases, and high-impact client engagement. They blend print media with digital video, offering a memorable and customizable promotional experience."
+    },
+    {
+      "id": "universal_travel_adapter",
+      "title": "Universal Travel Adapter",
+      "main_category": "Travel",
+      "image_urls": [],
+      "product_info": "A compact and visually transparent universal travel adapter designed with multiple plug standards and modular twist-lock components. The product appears in various color variants and features interchangeable plug types suitable for global use. Its small cylindrical form and glossy finish make it easy to carry and store. Ideal for travelers needing seamless compatibility across countries, offering convenience, durability, and a clear functional layout."
+    }
+  ]
+  {
+    "Gadgets & Accessories": [
+      {
+        "product_id": 1,
+        "product_name": "Universal Travel Adaptor",
+        "product_title": "Compact Universal Travel Adapter with Multi-Plug System",
+        "subcategory": "Travel Gadgets",
+        "product_description": "A compact and highly functional universal travel adaptor designed for worldwide use. Equipped with multiple plug types for EU, USA, UK and Australia, this adaptor ensures convenient charging for all your electronic devices while travelling. The foldable, pocket-friendly case makes it easy to carry, while the sturdy ABS body with nickel-plated connectors ensures long-lasting durability.",
+        "product_info": "The images show a neatly designed black travel adaptor set with foldable plug modules and a protective hard case. The adaptor includes multiple retractable plug formats, allowing instant switching between international standards. The detachable case enhances portability and organization, making it ideal for frequent travellers seeking compact utility.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 2,
+        "product_name": "CPR Mask Adult",
+        "product_title": "Adult CPR Rescue Mask with Protective Case",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A professional-grade CPR mask designed for emergency resuscitation. The mask includes a one-way valve to protect both rescuer and patient and comes in a compact case for easy storage. Ideal for first-aid kits, clinics and emergency professionals.",
+        "product_info": "Images display a transparent CPR face mask packaged inside a sturdy, lightweight case. The mask includes a soft seal that fits securely over the patient’s face, ensuring reliable airflow during rescue breathing. The portable design makes it easy to carry for emergency responders.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 3,
+        "product_name": "Infant CPR Mask",
+        "product_title": "Infant CPR Mask with Compact Carry Case",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A specialized CPR mask designed for infants, providing safe and controlled ventilation during emergencies. Comes with a protective case and essential instructions, making it ideal for paediatric clinics, first responders and caregivers.",
+        "product_info": "Images show pastel-coloured compact cases containing small, soft-seal CPR masks sized for infants. The clear mask dome provides full visibility during usage, while the included sanitary wipes and gloves enhance preparedness.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 4,
+        "product_name": "CPR Face Shield",
+        "product_title": "Disposable CPR Face Shield with One-Way Valve",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A lightweight, disposable CPR face shield for providing safe rescue breaths. Designed with a printed guide and one-way valve, it prevents direct contact between rescuer and patient. Ideal for travel kits and first-aid supplies.",
+        "product_info": "The images show sealed, individually packed CPR face shields featuring illustrated face guides for easy positioning. The compact packaging and simple design make it practical for quick deployment during emergencies.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 5,
+        "product_name": "India Desk Clock",
+        "product_title": "Patriotic India Map Wooden Desktop Clock",
+        "subcategory": "Desk Accessories",
+        "product_description": "A beautifully crafted wooden desktop clock shaped like the map of India. Designed as a patriotic decor piece, it features a rustic wooden finish with tri-colour styling. Perfect for offices, homes and gifting.",
+        "product_info": "The clock is shaped like the Indian map and painted with the tricolour theme. It features a smooth wooden texture and a stable rectangular base stand. The dial markings and golden clock hands add a decorative and functional touch.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 6,
+        "product_name": "Privacy Screen Protector",
+        "product_title": "Laptop & Mobile Privacy Guard",
+        "subcategory": "Digital Protection",
+        "product_description": "This privacy protector prevents unauthorized viewing of your laptop or mobile screen by narrowing the visible viewing angle. Ideal for professionals handling sensitive data. Also reduces glare and eye strain.",
+        "product_info": "Images show privacy filters installed on laptops, visibly darkening the screen from side angles. The demonstration diagram highlights restricted viewing angles. Packaging indicates professional-grade display protection.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Magnetic Plaster",
+        "product_title": "Therapeutic Magnetic Relief Plaster",
+        "subcategory": "Pain Relief",
+        "product_description": "A simple, natural magnetic therapy patch designed to provide relief from muscle stiffness and joint discomfort. Easy to apply and suitable for daily use.",
+        "product_info": "Images show circular brown adhesive plasters embedded with small magnetic discs. Demonstrations show placement on neck, shoulder and back areas. Packaging includes multiple plasters arranged in rows.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 8,
+        "product_name": "LED Candles",
+        "product_title": "Decorative LED Flameless Candles",
+        "subcategory": "Home Decor Lighting",
+        "product_description": "Realistic flameless candles that simulate the warm glow of real wax candles. Safe, reusable, and ideal for indoor decorations, romantic ambience or festive lighting.",
+        "product_info": "Images display multiple candle shapes including cylindrical, square and rose-shaped LED candles. Variants include warm white glow and colour-changing LED effects. The smooth wax-like body gives a realistic appearance.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 9,
+        "product_name": "Money Plant Gift Pack",
+        "product_title": "Decorative Money Plant in Transparent Gift Box",
+        "subcategory": "Gifting",
+        "product_description": "A beautifully packaged money plant, symbolizing good luck and prosperity. Presented in a transparent box, ideal for corporate gifting or home decor.",
+        "product_info": "Images show a live money plant placed in a small pot enclosed in a clear, elegant box with a carrying handle. The packaging includes printed blessing messages and branding elements.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 10,
+        "product_name": "LED Dual Torch",
+        "product_title": "Rechargeable LED Dual-Purpose Torch",
+        "subcategory": "Lighting Gadgets",
+        "product_description": "A practical rechargeable LED torch with dual functionality—handheld use and table reading light capability. Durable ABS body and bright illumination make it ideal for everyday use.",
+        "product_info": "Images show a sleek, curved black torch with a red front bezel. The torch has a forward LED beam and a secondary reading-light mode. A built-in rechargeable battery enables long usage.",
+        "image_urls": [],
+        "price": null
+      }
+    ]
+  }
+  {
+    "Gadgets & Accessories": [
+      {
+        "product_id": 11,
+        "product_name": "Multi-Function 5-in-1 Pen",
+        "product_title": "5-in-1 Utility Pen with LED Light, UV Detector & Laser Pointer",
+        "subcategory": "Multi-Utility Tools",
+        "product_description": "A compact multi-function pen combining UV fake currency detection, LED reading light, laser pointer, ball pen, and touch stylus. Perfect for professionals, students and everyday carry.",
+        "product_info": "Images show a metallic silver pen featuring buttons for LED and laser activation. The pen includes a built-in UV light for currency verification and a touch stylus tip suitable for phones and tablets.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "9-in-1 Stationery Kit",
+        "product_title": "Compact Multi-Purpose 9-in-1 Stationery Tool Set",
+        "subcategory": "Office Stationery",
+        "product_description": "A versatile and colourful stationery kit containing all essential desk tools in one compact box. Ideal for students, offices and travel use.",
+        "product_info": "The images show a small square black case that opens to reveal scissors, ruler, measuring tape, pen, sharpener, sticky notes, clip holder and paper holder tools. Bright, colourful components enhance usability.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 13,
+        "product_name": "Book Reading LED Light",
+        "product_title": "Portable Clip-On Book Reading Light",
+        "subcategory": "Lighting Gadgets",
+        "product_description": "A slim, foldable LED reading light that clips onto books for night reading. Long-lasting battery and compact form make it convenient for travel.",
+        "product_info": "Images show a silver folding light with a rotating head and clip mount. Multiple positions allow adjustable lighting angles. Ideal for books, magazines and notebooks.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 14,
+        "product_name": "Mosquito Killer Night Lamp",
+        "product_title": "Electric Mosquito Killer Cum Night Lamp",
+        "subcategory": "Home Utility",
+        "product_description": "A chemical-free mosquito killing lamp using electric grid technology. Doubles as a soft night lamp for bedrooms and indoor spaces.",
+        "product_info": "The images display black cylindrical mosquito traps with internal blue UV light. Slotted outer casing ensures safety while attracting insects effectively.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 15,
+        "product_name": "Surgical Skin Marker Set",
+        "product_title": "Medical Sterilized Skin Marker with Ruler",
+        "subcategory": "Medical Instruments",
+        "product_description": "A sterilized skin-marking pen used for surgical procedures, paired with a precise measuring ruler. Essential for clinical applications.",
+        "product_info": "Images show a blue sterile pen with measurement markings on the body, accompanied by a transparent ruler. Suitable for hospital and clinical use.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 16,
+        "product_name": "UV Shoe Sanitizer",
+        "product_title": "LED Touch-Controlled Ultraviolet Shoe Sanitizer",
+        "subcategory": "Health & Hygiene",
+        "product_description": "A UV-C light based shoe sanitizer designed to eliminate bacteria and odour. Adjustable length and touch-control interface ensure ease of use.",
+        "product_info": "Images show two UV sanitizing devices inserted into shoes. The design includes adjustable rods, LED indicators, and a modern white housing with UV bulbs.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 17,
+        "product_name": "Tabletop Water Fountain",
+        "product_title": "Indoor Feng-Shui Table Fountain Collection",
+        "subcategory": "Home Decor",
+        "product_description": "Beautiful tabletop fountains designed to bring calmness, good energy, and Feng-Shui balance to indoor spaces. Ideal for offices and homes.",
+        "product_info": "Images show multiple fountain models featuring water wheels, stone textures, figurines and flowing water channels. Made for decorative ambience and positive energy flow.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 18,
+        "product_name": "Folding Clinic Stool",
+        "product_title": "Portable Metal Folding Stool for Clinic & Home",
+        "subcategory": "Furniture",
+        "product_description": "Lightweight folding stool with cushioned top available in various colours. Suitable for clinics, homes, events and compact spaces.",
+        "product_info": "Images display round-seat stools in bright pastel shades with sturdy foldable metal legs. Easy to store and carry.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Retro Wooden Speaker System",
+        "product_title": "Vintage Style Wooden Portable Speaker",
+        "subcategory": "Audio Gadgets",
+        "product_description": "A retro-themed portable speaker system with classic wooden finish, built-in radio, alarm clock and SD/USB playback support.",
+        "product_info": "Images show a rectangular wooden speaker with twin drivers, central display, and control panel. Colour variants include red and blue front panels.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 20,
+        "product_name": "Universal Travel Adaptor – Black Edition",
+        "product_title": "Compact Worldwide Adapter with Protective Case",
+        "subcategory": "Travel Gadgets",
+        "product_description": "Another model of universal adaptor featuring multi-region plugs and a durable black carry case. Ideal for international travellers.",
+        "product_info": "Images show modular plug components arranged neatly inside the case. Strong ABS design ensures long-term usability.",
+        "image_urls": [],
+        "price": null
+      }
+    ]
+  }
+  {
+    "Gadgets & Accessories": [
+      {
+        "product_id": 21,
+        "product_name": "India Theme Desk Clock",
+        "product_title": "Tri-Color India Map Wooden Desk Clock",
+        "subcategory": "Desk Accessories",
+        "product_description": "A beautifully designed India-map themed desk clock finished in tricolor artwork. Perfect for offices, study tables, reception counters, and patriotic gifting.",
+        "product_info": "Images show a wooden India map-shaped desk clock painted in saffron, white, and green sections. The clock dial features bold black numerals and golden hands mounted on a neat base stand, making it visually striking and stable.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 22,
+        "product_name": "Magnetic Therapy Plaster",
+        "product_title": "Magnetic Therapeutic Body Pain Relief Plaster",
+        "subcategory": "Pain Relief",
+        "product_description": "A natural magnetic therapy plaster designed to relieve muscle tension, joint stiffness, and daily body pains.",
+        "product_info": "The sheet shows circular magnetic patches arranged on paper cards. Each patch contains a central magnet covered with a beige adhesive pad. Usage diagrams highlight application on neck, shoulders, knees, and back for relief.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Magnetic Plaster – Premium Pack",
+        "product_title": "Premium Magnetic Plaster Pack for Pain Reduction",
+        "subcategory": "Pain Relief",
+        "product_description": "A premium version of magnetic pain-relief plasters designed for long-lasting therapeutic effect.",
+        "product_info": "Images display multiple blister-style packs of higher-grade magnetic plasters. The magnets appear stronger and arranged in organized rows, with printed instructions showing usage areas and benefits.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 24,
+        "product_name": "Privacy Screen – Premium",
+        "product_title": "Premium Privacy Guard for Laptops & Monitors",
+        "subcategory": "Digital Protection",
+        "product_description": "A professional privacy filter for laptops and desktop monitors, reducing visibility from side angles and protecting confidential on-screen data.",
+        "product_info": "Images show a privacy screen installed on laptops with clear front visibility and darkened side view. Icons indicate anti-glare, anti-scratch, and data-protection features, suitable for offices and corporate environments.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 25,
+        "product_name": "LED Scented Wax Candles",
+        "product_title": "Scented Real Wax LED Candle Collection",
+        "subcategory": "Home Decor Lighting",
+        "product_description": "Elegant LED candles crafted using real wax and infused with light fragrances, designed for décor, ambience lighting and gifting.",
+        "product_info": "Images show multiple candle shapes including round, square, and pillar styles made using real wax. Warm yellow LED glow mimics real flame, while scented variants enhance room ambience.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "CPR Keychain Mask",
+        "product_title": "Portable CPR Rescue Mask in Keychain Pouch",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A handy CPR mask stored inside a compact keychain pouch for emergency breathing support during rescue situations.",
+        "product_info": "The images show fabric keychain pouches in various colors containing foldable CPR masks. The mask features a one-way valve for safe resuscitation. Ideal for security staff, lifeguards, schools, and travellers.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 27,
+        "product_name": "India Theme Paperweight Clock",
+        "product_title": "India Map Desk Clock & Paperweight",
+        "subcategory": "Desk Accessories",
+        "product_description": "A compact metallic India-map shaped desk clock doubling as a paperweight, ideal for décor and gifting.",
+        "product_info": "Images show a metallic miniature India-map structure with embedded analog clock dial. The heavy build provides stability, making it useful as a paperweight on office desks.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 28,
+        "product_name": "Dual LED Torch",
+        "product_title": "Rechargeable Handheld Dual-Beam LED Torch",
+        "subcategory": "Lighting Tools",
+        "product_description": "A portable dual-beam rechargeable LED torch ideal for home, travel, and outdoor emergencies.",
+        "product_info": "Images depict a sleek black torch with red detailing, featuring a strong front flashlight and an additional lantern-style side light. Sturdy ABS build makes it reliable for daily use.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 29,
+        "product_name": "Mini Money Plant",
+        "product_title": "Packaged Mini Money Plant in Transparent Display Box",
+        "subcategory": "Decor Gifts",
+        "product_description": "A neatly packaged money plant enclosed in a transparent box, perfect for home décor and gifting.",
+        "product_info": "Images show a healthy green money plant potted inside a decorative container and sealed in a clear display box with handle. Messaging on the box promotes positivity and prosperity.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 30,
+        "product_name": "Premium LED Dual Torch",
+        "product_title": "High-Power Dual LED Torch with Rechargeable Battery",
+        "subcategory": "Lighting Tools",
+        "product_description": "A high-intensity rechargeable LED torch featuring both focused beam and secondary illumination mode for versatility.",
+        "product_info": "The product images show a robust dual-mode torch capable of switching between spotlight and ambient light. Bright LED output and comfortable grip ensure reliable performance in dark environments.",
+        "image_urls": [],
+        "price": null
+      }
+    ]
+  }
+  {
+    "Gadgets & Accessories": [
+      {
+        "product_id": 31,
+        "product_name": "CPR Training Mask Kit",
+        "product_title": "Professional CPR Training Mask with Carry Case",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A reusable CPR training mask designed for educational demonstrations and emergency preparedness training.",
+        "product_info": "Images show a transparent adult-sized CPR training mask with a sturdy red or blue case. The set includes an elastic head strap and a clear dome for visibility during practice. Suitable for clinics, workshops, and CPR certification courses.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 32,
+        "product_name": "Clinic Input Diagnostic Set",
+        "product_title": "Clinical Diagnostic Input Tools for Medical Training",
+        "subcategory": "Medical Instruments",
+        "product_description": "A set of essential clinical input tools used for diagnostics, patient education, and demonstration in medical settings.",
+        "product_info": "Images show a structured set containing multiple instruments including tongue depressors, anatomical indicators, measurement cards, and symptom explanation charts. Designed for healthcare professionals, educators, and clinic display.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 33,
+        "product_name": "I-Shoe Heel Support",
+        "product_title": "I-Shoe Orthopedic Shock Absorbing Heel Protector",
+        "subcategory": "Foot Care",
+        "product_description": "A soft orthopedic heel protector designed to reduce pressure and absorb shock while walking or standing.",
+        "product_info": "The product images display a 3D heel-support design with blue cushioning gel that fits inside the shoe. Transparent silicone walls add flexibility and comfort. Ideal for people with heel pain, plantar discomfort, or prolonged standing schedules.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 34,
+        "product_name": "Tabletop Fountain - Stone Wheel",
+        "product_title": "Decorative Water Fountain with Rotating Water Wheel",
+        "subcategory": "Home Decor",
+        "product_description": "A compact indoor fountain featuring a rotating water wheel and stone-textured design for calming ambience.",
+        "product_info": "Images show a rustic stone-style fountain basin with a rotating wheel powered by flowing water. Ideal for desks, living rooms, and meditation spaces, enhancing Feng Shui energy and relaxation.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 35,
+        "product_name": "Tabletop Fountain - Monk Figurine",
+        "product_title": "Spiritual Buddha Monk Table Fountain",
+        "subcategory": "Home Decor",
+        "product_description": "A peaceful tabletop fountain featuring a monk figure and soothing water flow for calm interior ambience.",
+        "product_info": "Pictures show a seated monk with cascading water channels, decorative textures, and LED lighting effects. Perfect for spa rooms, offices, and gifting.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 36,
+        "product_name": "Tabletop Fountain - Twin Basin",
+        "product_title": "Double Basin Artistic Indoor Fountain",
+        "subcategory": "Home Decor",
+        "product_description": "A stylish two-basin indoor fountain designed for decorative and relaxation purposes.",
+        "product_info": "Images display a dual-bowl structure with water flowing from upper to lower basin. Artistic stone patterns give it a natural look suitable for modern interiors.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 37,
+        "product_name": "Tabletop Fountain - Elephant Idol",
+        "product_title": "Elephant Idol Fountain with Waterfall Feature",
+        "subcategory": "Home Decor",
+        "product_description": "A beautiful indoor fountain with a hand-carved elephant figure and cascading waterfall design.",
+        "product_info": "The fountain highlights a golden elephant placed beside flowing water streams, making it a symbol of luck and prosperity. Images show LED-lit water effects for added elegance.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 38,
+        "product_name": "Tabletop Fountain - Buddha Face",
+        "product_title": "Buddha Face Calm Flow Fountain",
+        "subcategory": "Home Decor",
+        "product_description": "A serene Buddha-face themed water fountain designed to enhance peace and meditation spaces.",
+        "product_info": "Images feature a Buddha face sculpture with water falling into a circular basin. Textures include stone finish and soft LED illumination ideal for spiritual décor.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 39,
+        "product_name": "Tabletop Fountain - Rock Tower",
+        "product_title": "Rock-Stack Meditation Water Fountain",
+        "subcategory": "Home Decor",
+        "product_description": "A soothing rock-stacked indoor fountain symbolizing balance and natural harmony.",
+        "product_info": "Images show layered grey rock structures with water slowly flowing through crevices, producing a natural waterfall effect. Ideal for meditative environments.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 40,
+        "product_name": "Tabletop Fountain - Lotus Bowl",
+        "product_title": "Lotus Bowl Spiritual Table Fountain",
+        "subcategory": "Home Decor",
+        "product_description": "A lotus-inspired indoor fountain designed for spiritual and decorative enhancement.",
+        "product_info": "The product showcases a lotus-shaped bowl with central water bubbling and side carvings. LED lighting adds gentle luminosity, creating a peaceful ambience.",
+        "image_urls": [],
+        "price": null
+      }
+    ]
+  }
+  {
+    "Gadgets & Accessories": [
+      {
+        "product_id": 41,
+        "product_name": "World Travel Adaptor – Transparent Edition",
+        "product_title": "Universal Transparent World Travel Adapter",
+        "subcategory": "Travel Gadgets",
+        "product_description": "A compact transparent universal travel adapter designed with multiple plug types suitable for worldwide travel.",
+        "product_info": "The images show a transparent adaptor body that reveals internal plug mechanisms, offering EU, UK, USA, and AU compatibility. Its compact shape and modular build make it ideal for regular travellers needing an all-in-one charging solution.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 42,
+        "product_name": "World Travel Adaptor – Classic Edition",
+        "product_title": "Universal Classic Global Travel Adapter",
+        "subcategory": "Travel Gadgets",
+        "product_description": "A classic-format universal travel adaptor supporting major international plug standards for seamless device charging abroad.",
+        "product_info": "Images show multiple plug varieties, arranged inside a protective hard case. A durable ABS shell ensures long-term reliability, making this adaptor perfect for business travellers.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 43,
+        "product_name": "CPR Mask Foldable Pack",
+        "product_title": "Compact Folding CPR Mask with One-Way Valve",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A foldable CPR mask designed for emergency breathing assistance. Comes in a sealed pack for hygiene and portability.",
+        "product_info": "Images show a folded clear mask with a detachable one-way valve stored in a compact, flat pouch. Designed for quick emergency deployment in travel kits and clinics.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 44,
+        "product_name": "Magnetic Plaster Value Pack",
+        "product_title": "Value Pack of Body-Pain Magnetic Therapy Plasters",
+        "subcategory": "Pain Relief",
+        "product_description": "An affordable set of magnetic therapy plasters designed to provide relief from pain and tension in muscles and joints.",
+        "product_info": "The images show round magnetic discs arranged neatly in blister packs. Application diagrams display recommended placement on neck, back, shoulders, and knees.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 45,
+        "product_name": "Scented LED Wax Candle – Rose Cube",
+        "product_title": "Rose Cube Scented LED Wax Candle",
+        "subcategory": "Home Decor Lighting",
+        "product_description": "A beautifully designed rose-textured LED candle made from real wax and infused with fragrance.",
+        "product_info": "Images show rose-shaped and cube-like candles emitting warm LED light. The wax texture and detailed craftsmanship make it ideal for décor and gifting.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 46,
+        "product_name": "Money Plant Gift Box – Variant 2",
+        "product_title": "Decorative Money Plant in Carry Box",
+        "subcategory": "Decor Gifts",
+        "product_description": "A neatly packaged money plant variant presented in a clear gift box with refined printing.",
+        "product_info": "Images show the plant placed inside a sturdy decorative pot, housed in a transparent box with detailed message printing and a portable handle.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 47,
+        "product_name": "Dual LED Rechargeable Torch – Silver Edition",
+        "product_title": "Metallic Dual-Mode Rechargeable LED Torch",
+        "subcategory": "Lighting Tools",
+        "product_description": "A metallic rechargeable LED torch featuring dual lighting modes for versatile use.",
+        "product_info": "Images show a silver-body torch with red highlights, a front flashlight, and a side-panel glow light ideal for reading or emergency use. Built-in charging interface allows quick recharging.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 48,
+        "product_name": "I-Shoe – Advanced Heel Cushion",
+        "product_title": "I-Shoe Shock-Absorbing Medical Heel Cushion",
+        "subcategory": "Foot Care",
+        "product_description": "A specially designed heel cushion that absorbs shock and reduces heel pain for daily comfort.",
+        "product_info": "Images show transparent silicone cushioning with blue gel absorption zones. Fits into various shoe types and helps improve overall walking comfort.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 49,
+        "product_name": "Clinic Inputs Set – Advanced Edition",
+        "product_title": "Advanced Clinical Inputs Display Set",
+        "subcategory": "Medical Instruments",
+        "product_description": "A set of clinical informational tools used for diagnostics, patient education and medical training.",
+        "product_info": "Images feature multiple laminated clinical information cards, anatomy diagrams, health parameter tools, and diagnostic reference charts arranged neatly for clinic use.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 50,
+        "product_name": "Multi-Scent LED Candle Collection",
+        "product_title": "Premium Multi-Scented LED Wax Candle Pack",
+        "subcategory": "Home Decor Lighting",
+        "product_description": "A pack of assorted LED wax candles with multiple fragrance and design styles.",
+        "product_info": "The images show various candle designs including cylindrical, carved, rose-shaped and cube LED candles in warm-lit and colour-lit variations. Ideal for gifting and ambience décor.",
+        "image_urls": [],
+        "price": null
+      }
+    ]
+  }
+}{
+    "Gadgets & Accessories": [
+      {
+        "product_id": 51,
+        "product_name": "World Travel Adaptor – Premium Set",
+        "product_title": "Premium Multi-Plug World Travel Adapter Kit",
+        "subcategory": "Travel Gadgets",
+        "product_description": "A premium universal multi-plug travel adapter supporting worldwide socket standards, ideal for international travellers.",
+        "product_info": "Images show a set of modular plug attachments along with a sturdy travel case. Plug types appear for US, UK, EU and AU regions. The transparent plastic casing highlights build quality and internal connectors, making it easy to identify the plug type during travel.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 52,
+        "product_name": "CPR Emergency Keychain Kit",
+        "product_title": "CPR Emergency Mask with Keychain Pouch",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A compact CPR emergency kit with a foldable mask stored inside a keychain pouch, enabling safe and quick rescue breathing.",
+        "product_info": "The images show the CPR mask sealed inside a small fabric pouch with Velcro. A one-way valve ensures hygienic airflow during emergencies. The keychain loop allows convenient everyday carry for lifeguards, guards, and first-aid responders.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 53,
+        "product_name": "Magnetic Pain Relief Pad",
+        "product_title": "Round Magnetic Pain Relief Therapy Pad",
+        "subcategory": "Pain Relief",
+        "product_description": "A circular magnetic relief pad designed to ease body pains and muscle stress when applied to affected areas.",
+        "product_info": "Images show beige magnetic pads with central raised magnetic discs. The pad is flexible and can adhere to shoulders, neck, or knee areas. Packaging indicates targeted pain relief benefits.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 54,
+        "product_name": "Magnetic Plaster Large Pack",
+        "product_title": "Large Pack Magnetic Muscle Relief Plasters",
+        "subcategory": "Pain Relief",
+        "product_description": "A bulk pack of magnetic therapy plasters used for relieving muscle tension, stiffness and body fatigue.",
+        "product_info": "Images display multiple sheets of round magnetic plasters arranged on yellow-brown paper cards. Demonstrations show placement on shoulders, back and wrists for therapeutic effects.",
+        "image_urls": [],
+        "price": null
+      },
+      {
+        "product_id": 55,
+        "product_name": "CPR Safety Mask – Red Case",
+        "product_title": "CPR Mask with Red Emergency Carry Case",
+        "subcategory": "Medical Safety Gear",
+        "product_description": "A safety-grade CPR mask packed inside a rigid red protective case. Designed for emergency rescue operations.",
+        "product_info": "The CPR mask_
+      }}  
+                        
