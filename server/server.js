@@ -8,10 +8,10 @@ const PORT = 5000;
 
 // Only allow your frontend
 const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:3000',
-  'http://localhost:8080',
-  'https://prosmart-concepts.vercel.app'
+  // 'http://localhost:5173',
+  // 'http://localhost:3000',
+  // 'http://localhost:8080',
+  // 'https://prosmart-concepts.vercel.app'
 ];
 
 app.use(cors({
