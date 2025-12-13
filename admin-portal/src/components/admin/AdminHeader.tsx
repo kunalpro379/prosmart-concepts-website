@@ -1,6 +1,4 @@
 'use client';
-
-import Image from 'next/image';
 import { Menu, Plus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
@@ -25,16 +23,15 @@ export const AdminHeader = ({ title, onMenuClick }: AdminHeaderProps) => {
 
         {/* Mobile Logo */}
         <div className="md:hidden flex items-center gap-2">
-          <div className="w-8 h-8 rounded-full overflow-hidden ring-2 ring-teal-400">
-            <Image
-              src="/logo.jpeg"
-              alt="ProSmart"
-              width={32}
-              height={32}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <span className="font-bold text-slate-800">ProSmart</span>
+          <img
+            src="/logo.jpeg"
+            alt="Prosmart Concepts"
+            width={52}
+            height={52}
+            loading="lazy"
+            className="w-13 h-13 object-contain"
+          />
+          <span className="font-bold text-slate-800">Prosmart Concepts</span>
         </div>
 
         {/* Desktop Title */}

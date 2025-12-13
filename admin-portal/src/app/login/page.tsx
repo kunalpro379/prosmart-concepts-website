@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { Lock, User } from 'lucide-react';
@@ -55,21 +54,20 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-24 h-24 rounded-2xl overflow-hidden ring-4 ring-teal-400 mx-auto mb-4 shadow-xl">
-            <Image
-              src="/logo.jpeg"
-              alt="ProSmart Logo"
-              width={96}
-              height={96}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <h1 className="text-3xl font-bold text-slate-800">ProSmart</h1>
+          <img
+            src="/logo.jpeg"
+            alt="ProSmart Logo"
+            width={200}
+            height={200}
+            loading="lazy"
+            className="w-52 h-52 mx-auto mb-1 object-contain"
+          />
+          <h1 className="text-3xl font-bold text-slate-800">Prosmart Concepts</h1>
           <p className="text-slate-500 mt-1">Admin Portal</p>
         </div>
 
         {/* Login Card */}
-        <div className="bg-white rounded-3xl border border-slate-100 p-8 shadow-2xl shadow-slate-200">
+        <div className="bg-white rounded-3xl border-2 border-slate-500 p-8 shadow-2xl shadow-slate-200">
           <h2 className="text-xl font-bold text-slate-800 mb-6">Sign in to your account</h2>
           
           <form onSubmit={handleSubmit} className="space-y-5">

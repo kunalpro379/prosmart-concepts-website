@@ -11,12 +11,14 @@ import toast from 'react-hot-toast';
 interface Category {
   _id: string;
   category_name: string;
+  category_id?: string;
 }
 
 interface Subcategory {
   _id: string;
   subcategory_name: string;
   category_id: string;
+  subcategory_id?: string;
 }
 
 export default function ProductNewPage() {
@@ -97,8 +99,8 @@ export default function ProductNewPage() {
 
     try {
       // Get category and subcategory names
-      const selectedCategory = categories.find((c) => c._id === formData.category_id);
-      const selectedSubcategory = subcategories.find((s) => s._id === formData.subcategory_id);
+      const selectedCategory = categories.find((c) => (c.category_id || c._id) === formData.category_id);
+      const selectedSubcategory = subcategories.find((s) => (s.subcategory_id || s._id) === formData.subcategory_id);
 
       // Convert base64 images to files
       const formDataToSend = new FormData();
@@ -144,12 +146,12 @@ export default function ProductNewPage() {
   };
 
   const categoryOptions = categories.map((cat) => ({
-    value: cat._id,
+    value: cat.category_id || cat._id,
     label: cat.category_name,
   }));
 
   const subcategoryOptions = subcategories.map((sub) => ({
-    value: sub._id,
+    value: sub.subcategory_id || sub._id,
     label: sub.subcategory_name,
   }));
 

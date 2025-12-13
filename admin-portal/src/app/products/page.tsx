@@ -24,12 +24,14 @@ interface Product {
 interface Category {
   _id: string;
   category_name: string;
+  category_id?: string;
 }
 
 interface Subcategory {
   _id: string;
   subcategory_name: string;
   category_id: string;
+  subcategory_id?: string;
 }
 
 interface Pagination {
@@ -178,13 +180,16 @@ export default function ProductListPage() {
     setSubcategoryFilter('all');
   };
 
+  const getCategoryKey = (c: Category) => c.category_id || c._id;
+  const getSubcategoryKey = (s: Subcategory) => s.subcategory_id || s._id;
+
   const getCategoryName = (categoryId: string) => {
-    const category = categories.find((c) => c._id === categoryId);
+    const category = categories.find((c) => getCategoryKey(c) === categoryId);
     return category?.category_name || 'Unknown';
   };
 
   const getSubcategoryName = (subcategoryId: string) => {
-    const subcategory = allSubcategories.find((s) => s._id === subcategoryId);
+    const subcategory = allSubcategories.find((s) => getSubcategoryKey(s) === subcategoryId);
     return subcategory?.subcategory_name || 'Unknown';
   };
 
@@ -258,12 +263,12 @@ export default function ProductListPage() {
 
   const categoryOptions = [
     { value: 'all', label: 'All Categories' },
-    ...categories.map((cat) => ({ value: cat._id, label: cat.category_name })),
+    ...categories.map((cat) => ({ value: getCategoryKey(cat), label: cat.category_name })),
   ];
 
   const subcategoryOptions = [
     { value: 'all', label: 'All Subcategories' },
-    ...filterSubcategories.map((sub) => ({ value: sub._id, label: sub.subcategory_name })),
+    ...filterSubcategories.map((sub) => ({ value: getSubcategoryKey(sub), label: sub.subcategory_name })),
   ];
 
   const goToPage = (page: number) => {

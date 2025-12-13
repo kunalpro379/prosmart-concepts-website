@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { Plus, Package, LogOut, X, Download, Upload } from 'lucide-react';
@@ -50,17 +49,16 @@ export const AdminSidebar = ({ isOpen, onClose }: AdminSidebarProps) => {
         {/* Logo */}
         <div className="p-4 border-b border-slate-200 flex items-center justify-between bg-white">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-xl overflow-hidden ring-2 ring-teal-400 shadow-md">
-              <Image
-                src="/logo.jpeg"
-                alt="ProSmart Logo"
-                width={44}
-                height={44}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <img
+              src="/logo.jpeg"
+              alt="Prosmart Concepts Logo"
+              width={80}
+              height={80}
+              loading="lazy"
+              className="w-20 h-20 object-contain"
+            />
             <div>
-              <span className="font-bold text-slate-800 text-lg block">ProSmart</span>
+              <span className="font-bold text-slate-800 text-lg block">Prosmart Concepts</span>
               <span className="text-xs text-slate-500">Admin Panel</span>
             </div>
           </div>

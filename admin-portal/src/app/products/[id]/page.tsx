@@ -11,12 +11,14 @@ import toast from 'react-hot-toast';
 interface Category {
   _id: string;
   category_name: string;
+  category_id?: string;
 }
 
 interface Subcategory {
   _id: string;
   subcategory_name: string;
   category_id: string;
+  subcategory_id?: string;
 }
 
 interface Product {
@@ -191,12 +193,12 @@ export default function ProductEditPage() {
   };
 
   const categoryOptions = categories.map((cat) => ({
-    value: cat._id,
+    value: cat.category_id || cat._id,
     label: cat.category_name,
   }));
 
   const subcategoryOptions = subcategories.map((sub) => ({
-    value: sub._id,
+    value: sub.subcategory_id || sub._id,
     label: sub.subcategory_name,
   }));
 
