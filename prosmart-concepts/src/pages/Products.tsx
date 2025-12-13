@@ -1,5 +1,4 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { SlidersHorizontal, ChevronRight, Grid3X3, LayoutGrid, X } from 'lucide-react';
 import ProductsHeader from '@/components/products/ProductsHeader';
@@ -9,8 +8,6 @@ import ProductsLoading from '@/components/products/ProductsLoading';
 import { fetchCategoriesWithProducts } from '@/services/api';
 import { Product, ProductData } from '@/types/product';
 const Products = () => {
-  const [searchParams] = useSearchParams();
-  const categoryParam = searchParams.get('category');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState('All Items');
@@ -77,34 +74,13 @@ const Products = () => {
     };
   }, []);
 
-  // On effect for URL param/category, only preselect if param exists
+  // Keep default filter as "All Items" on page load.
+  // (We intentionally do not auto-apply category filters from URL params.)
   useEffect(() => {
-    if (categoryParam && productData) {
-      // Check if it's a main category
-      const mainCats = new Set<string>();
-      Object.values(productData.categories).forEach((category) => {
-        if (category.main_category) {
-          mainCats.add(category.main_category);
-        }
-      });
-
-      if (mainCats.has(categoryParam)) {
-        setActiveTab(categoryParam);
-      } else {
-        // Check if it's a category name
-        const categoryExists = Object.values(productData.categories).some(
-          (cat) => cat.category_name === categoryParam
-        );
-        if (categoryExists) {
-          setSelectedCategories([categoryParam]);
-        }
-      }
-    } else {
-      setActiveTab('All Items');
-      setSelectedCategories([]);
-      setSelectedSubcategories([]);
-    }
-  }, [categoryParam, productData]);
+    setActiveTab('All Items');
+    setSelectedCategories([]);
+    setSelectedSubcategories([]);
+  }, []);
 
   // Extract all products, main categories, categories, and subcategories from data
   const { allProducts, mainCategories, categories, subcategories } = useMemo(() => {

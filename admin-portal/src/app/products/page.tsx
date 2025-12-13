@@ -179,12 +179,12 @@ export default function ProductListPage() {
   };
 
   const getCategoryName = (categoryId: string) => {
-    const category = categories.find((c) => c.category_id === categoryId);
+    const category = categories.find((c) => c._id === categoryId);
     return category?.category_name || 'Unknown';
   };
 
   const getSubcategoryName = (subcategoryId: string) => {
-    const subcategory = allSubcategories.find((s) => s.subcategory_id === subcategoryId);
+    const subcategory = allSubcategories.find((s) => s._id === subcategoryId);
     return subcategory?.subcategory_name || 'Unknown';
   };
 
@@ -258,12 +258,12 @@ export default function ProductListPage() {
 
   const categoryOptions = [
     { value: 'all', label: 'All Categories' },
-    ...categories.map((cat) => ({ value: cat.category_id, label: cat.category_name })),
+    ...categories.map((cat) => ({ value: cat._id, label: cat.category_name })),
   ];
 
   const subcategoryOptions = [
     { value: 'all', label: 'All Subcategories' },
-    ...filterSubcategories.map((sub) => ({ value: sub.subcategory_id, label: sub.subcategory_name })),
+    ...filterSubcategories.map((sub) => ({ value: sub._id, label: sub.subcategory_name })),
   ];
 
   const goToPage = (page: number) => {
