@@ -5,6 +5,36 @@ import productRoutes from './routes/productRoutes.js';
 const app = express();
 const PORT = 5000;
 
+// Minimal CORS (no dependency). Needed because frontend and API are on different origins.
+const allowedOrigins = new Set([
+  'https://prosmartconcepts-website.vercel.app',
+  'https://prosmart-concepts.vercel.app',
+  'http://localhost:5173',
+  'http://localhost:3000',
+]);
+
+app.use((req, res, next) => {
+  const origin = req.headers.origin;
+
+  if (origin && allowedOrigins.has(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+    res.setHeader(
+      'Access-Control-Allow-Headers',
+      'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+    );
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+  }
+
+  // Handle preflight
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(204);
+  }
+
+  next();
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
